@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LevelUpToA", "LevelUpToA", "{6961296A-7CE9-450A-8697-8BF8611E71AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getboardstatus001", "getboardstatus001\getboardstatus001.csproj", "{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0E08C72-52B9-454E-B7EA-0E29ED05FA8E} = {6961296A-7CE9-450A-8697-8BF8611E71AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
+	EndGlobalSection
+EndGlobal
