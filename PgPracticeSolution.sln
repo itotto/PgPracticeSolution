@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapjudgement_vertical001", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mapjudgement_all001", "mapjudgement_all001\mapjudgement_all001.csproj", "{47650223-C137-45CE-B762-D7C764673E95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "orientedmovement", "orientedmovement", "{D7BC0EB1-C104-4FBC-B31F-1F65D67D0815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getcoordinatefrommap001", "getcoordinatefrommap001\getcoordinatefrommap001.csproj", "{152851B0-4C0B-4B84-9E4C-0B6B655052A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{47650223-C137-45CE-B762-D7C764673E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47650223-C137-45CE-B762-D7C764673E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47650223-C137-45CE-B762-D7C764673E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152851B0-4C0B-4B84-9E4C-0B6B655052A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152851B0-4C0B-4B84-9E4C-0B6B655052A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152851B0-4C0B-4B84-9E4C-0B6B655052A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152851B0-4C0B-4B84-9E4C-0B6B655052A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,8 @@ Global
 		{DDB2E003-DC6F-47A4-8D89-30A3D1E3EE8B} = {09167AC7-3057-4952-BCAB-642485353EAC}
 		{0611C32F-A4A0-4967-92E7-5D5BCDA9A39A} = {09167AC7-3057-4952-BCAB-642485353EAC}
 		{47650223-C137-45CE-B762-D7C764673E95} = {09167AC7-3057-4952-BCAB-642485353EAC}
+		{D7BC0EB1-C104-4FBC-B31F-1F65D67D0815} = {6961296A-7CE9-450A-8697-8BF8611E71AF}
+		{152851B0-4C0B-4B84-9E4C-0B6B655052A5} = {D7BC0EB1-C104-4FBC-B31F-1F65D67D0815}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
