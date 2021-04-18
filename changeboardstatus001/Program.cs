@@ -6,7 +6,7 @@ namespace changeboardstatus001 {
     /// </summary>
     /// <remarks>https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_snake_map_step2/edit?language_uid=c-sharp</remarks>
     class Program {
-        static void Main(string[] args) {
+        static void Main() {
             var boardinfo = Console.ReadLine().Split(' ');
             var height = Convert.ToInt32(boardinfo[0]);
             var width = Convert.ToInt32(boardinfo[1]);
