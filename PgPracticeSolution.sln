@@ -31,9 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "orientedmovement001", "orie
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "snake", "snake", "{26989194-26FB-4FE7-B5B4-74A401D6FE7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "directionofmovement001", "directionofmovement001\directionofmovement001.csproj", "{D0197EA0-00D4-4612-BA93-7F8E533ACCB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "directionofmovement001", "directionofmovement001\directionofmovement001.csproj", "{D0197EA0-00D4-4612-BA93-7F8E533ACCB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "directionofmovement002", "directionofmovement002\directionofmovement002.csproj", "{59241892-2C90-43C0-A964-4B0004877A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "directionofmovement002", "directionofmovement002\directionofmovement002.csproj", "{59241892-2C90-43C0-A964-4B0004877A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movemultipletimes001", "movemultipletimes001\movemultipletimes001.csproj", "{8069700F-2DDB-4ADD-AAD1-E2000C178A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "widemovement001", "widemovement001\widemovement001.csproj", "{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,14 @@ Global
 		{59241892-2C90-43C0-A964-4B0004877A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59241892-2C90-43C0-A964-4B0004877A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59241892-2C90-43C0-A964-4B0004877A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8069700F-2DDB-4ADD-AAD1-E2000C178A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8069700F-2DDB-4ADD-AAD1-E2000C178A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8069700F-2DDB-4ADD-AAD1-E2000C178A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8069700F-2DDB-4ADD-AAD1-E2000C178A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +121,8 @@ Global
 		{26989194-26FB-4FE7-B5B4-74A401D6FE7A} = {6961296A-7CE9-450A-8697-8BF8611E71AF}
 		{D0197EA0-00D4-4612-BA93-7F8E533ACCB9} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
 		{59241892-2C90-43C0-A964-4B0004877A02} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
+		{8069700F-2DDB-4ADD-AAD1-E2000C178A86} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
+		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
