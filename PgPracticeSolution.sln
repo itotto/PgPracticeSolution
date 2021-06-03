@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "widemovement001", "widemove
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "widemovement002", "widemovement002\widemovement002.csproj", "{DD6AF1A9-5206-4692-91DD-4CECBC846561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movementwithtime001", "movementwithtime001\movementwithtime001.csproj", "{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "movementwithtime001", "movementwithtime001\movementwithtime001.csproj", "{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movewithtime002", "movewithtime002\movewithtime002.csproj", "{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{5D19C3AA-57CF-4DE0-914A-2CEC0D54AB47} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
 		{DD6AF1A9-5206-4692-91DD-4CECBC846561} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
 		{FC9C188C-B63F-45BA-81A6-78EFCA89B8F1} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
+		{25E085F9-E4A6-4F1A-ABBF-1778E4D9356D} = {26989194-26FB-4FE7-B5B4-74A401D6FE7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}

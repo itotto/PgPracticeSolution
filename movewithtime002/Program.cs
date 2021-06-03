@@ -1,32 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace movementwithtime001 {
+namespace movewithtime002 {
     /// <summary>
-    /// 時刻に伴う移動
+    /// へび
     /// </summary>
-    /// <remarks>https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_snake_mapmove_step6/edit?language_uid=c-sharp</remarks>
+    /// <remarks>https://paiza.jp/works/mondai/a_rank_level_up_problems/a_rank_snake_mapmove_boss/edit?language_uid=c-sharp</remarks>
     class Program {
         static void Main() {
-            //string GetKey(int v1, int v2) => $"{v1}-{v2}";
-            Func<int, int, string> GetKey = (v1, v2) => $"{v1}-{v2}";
+            // キーを取得
+            Func<int, int, string> gKey = (v1, v2) => $"{v1}-{v2}";
 
             // 壁
             const char WALL = '#';
 
-            // 条件入力
+            const char OCCUPATION = '*';
+
+            // 初期条件入力
             var conditions = Console.ReadLine().Split(' ');
             var height = Convert.ToInt32(conditions[0]);
             var width = Convert.ToInt32(conditions[1]);
-            var current_y = Convert.ToInt32(conditions[2]);
-            var current_x = Convert.ToInt32(conditions[3]);
+            var current_Y = Convert.ToInt32(conditions[2]);
+            var current_X = Convert.ToInt32(conditions[3]);
             var n = Convert.ToInt32(conditions[4]);
 
-            // 盤面のデータを取得
-            var boardstatus = new char[height, width];
+            // 盤面情報を取得
+            var boardInfo = new char[height, width];
             for (var i = 0; i < height; i++) {
                 var line = Console.ReadLine();
-                for (var j = 0; j < width; j++) boardstatus[i, j] = line[j];
+                for (var j = 0; j < width; j++) boardInfo[i, j] = line[j];
             }
 
             // 移動方向と距離を入力
@@ -39,33 +41,45 @@ namespace movementwithtime001 {
                 );
             }
 
+            // 回答用変数を初期化
+            var result = new char[height, width];
+            for (var i = 0; i < height; i++) {
+                for (var j = 0; j < width; j++) result[i, j] = boardInfo[i, j];
+            }
+
             // 移動＋結果を表示
             var direction = Direction.North;
             var move = new AddPoint(0, -1); // 北に進む
             var history = new Dictionary<string, bool>();
-            history.Add(GetKey(current_y, current_x), true);
+            history.Add(gKey(current_Y, current_X), true);
+            result[current_Y, current_X] = OCCUPATION;
             for (var time = 0; time < 100; time++) {
                 if (moves.ContainsKey(time)) {
                     move = GetAddPoint(ref direction, moves[time]);
                 }
-                var next_Y = current_y + move.Y;
-                var next_X = current_x + move.X;
+                var next_Y = current_Y + move.Y;
+                var next_X = current_X + move.X;
 
                 if ((next_Y < 0 || height <= next_Y) ||
                     (next_X < 0 || width <= next_X) ||
-                    (boardstatus[next_Y, next_X] == WALL) ||
-                    history.ContainsKey(GetKey(next_Y, next_X))) {
-                    Console.WriteLine("Stop");
+                    (boardInfo[next_Y, next_X] == WALL) ||
+                    history.ContainsKey(gKey(next_Y, next_X))) {
                     break;
                 }
 
                 // 座標を表示
-                Console.WriteLine($"{next_Y} {next_X}");
-                // history.Add(gKey(next_Y, next_X), true); // これ必要じゃない？
+                result[next_Y, next_X] = OCCUPATION;
+                history.Add(gKey(next_Y, next_X), true);
 
                 // いまの位置にする
-                current_y = next_Y;
-                current_x = next_X;
+                current_Y = next_Y;
+                current_X = next_X;
+            }
+
+            // 回答を表示
+            for (var i = 0; i < height; i++) {
+                for (var j = 0; j < width; j++) Console.Write(result[i, j]);
+                Console.WriteLine();
             }
         }
 
@@ -133,6 +147,9 @@ namespace movementwithtime001 {
             Right,
         }
 
+        /// <summary>
+        /// 移動座標情報を格納する構造体クラス
+        /// </summary>
         class AddPoint {
             /// <summary>
             /// Xの移動分
