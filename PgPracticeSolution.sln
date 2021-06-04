@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matchletters001", "matchlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fizzbuzz001", "fizzbuzz001\fizzbuzz001.csproj", "{D1A7968D-B091-4C6A-B60D-C648ECB76586}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longtableeelshop001", "longtableeelshop001\longtableeelshop001.csproj", "{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D1A7968D-B091-4C6A-B60D-C648ECB76586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A7968D-B091-4C6A-B60D-C648ECB76586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A7968D-B091-4C6A-B60D-C648ECB76586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +190,7 @@ Global
 		{3FC3463B-571C-443F-8608-FC1A371AE3AE} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
 		{5C7FA784-0ADA-4D9B-8A15-9BC54D726DBA} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
 		{D1A7968D-B091-4C6A-B60D-C648ECB76586} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
+		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
