@@ -8,8 +8,7 @@ namespace rockpaperscissors001 {
     /// <remarks>https://paiza.jp/works/mondai/skillcheck_sample/janken/edit?language_uid=c-sharp</remarks>
     class Program {
 
-        // 自分が出した手
-        static List<string> _myPatterns = new List<string>();
+
         static void Main() {
             // 初期条件入力
             var conditions = Console.ReadLine().Split(' ');
@@ -33,6 +32,8 @@ namespace rockpaperscissors001 {
             Console.WriteLine(counts[0]);
         }
 
+        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
+
         /// <summary>
         /// じゃんけんを出すパターンを検索
         /// </summary>
@@ -41,7 +42,17 @@ namespace rockpaperscissors001 {
         /// <param name="rest"></param>
         /// <param name="targetValue"></param>
         static List<string> Exec(int sumV, int rest, int targetValue) {
+
+            //** 既に計算済みの結果があればそれを返す(高速化の工夫) **//
+            var key = $"{sumV}-{rest}";
+            if (_history.ContainsKey(key)) return _history[key];
+
             var r = new List<string>();
+
+            //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
+            var lackV = targetValue - sumV;
+            if (2 > lackV || (rest * 5) < lackV) return r;
+
 
             // 手を決める
             Action<char> execAction = (c) => {
@@ -74,6 +85,9 @@ namespace rockpaperscissors001 {
 
             // パーを出す
             execAction('P');
+
+            // 今回の処理結果を保存しておく
+            _history.Add(key, r);
 
             return r;
         }
