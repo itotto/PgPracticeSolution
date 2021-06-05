@@ -20,11 +20,11 @@ namespace rockpaperscissors001 {
             var patterns = Console.ReadLine();
 
             // じゃんけんを実行
-            Exec(string.Empty, 0, n, m);
+            var myPatterns = Exec(0, n, m);
 
             // 出した指の本数がmの全部のパターンを試してみる
             var counts = new List<int>();
-            _myPatterns.ForEach(my => counts.Add(CountWinning(my, patterns)));
+            myPatterns.ForEach(my => counts.Add(CountWinning(my, patterns)));
 
             // 並び替え
             counts.Sort((x, y) => y - x);
@@ -40,10 +40,12 @@ namespace rockpaperscissors001 {
         /// <param name="sumV"></param>
         /// <param name="rest"></param>
         /// <param name="targetValue"></param>
-        static void Exec(string currentKey, int sumV, int rest, int targetValue) {
-            // 手を出す
+        static List<string> Exec(int sumV, int rest, int targetValue) {
+            var r = new List<string>();
+
+            // 手を決める
             Action<char> execAction = (c) => {
-                var key = $"{currentKey}{c}";
+                var result = new List<string>();
 
                 var addV = 0;
                 if (c == 'C') addV = 2;
@@ -52,12 +54,16 @@ namespace rockpaperscissors001 {
                 var sumV_temp = sumV + addV;
                 if (sumV_temp == targetValue) { // 同じ場合はここでおしまい(キーは残りをグーで追加して登録する)
                     // 残りを全部Gで埋めたキーを追加
-                    _myPatterns.Add($"{key}{new string('G', rest - 1)}");
+                    result.Add($"{c}{new string('G', rest - 1)}");
                 } else if (sumV_temp < targetValue) { // 超えなかった場合は次以降を実行する
                     if (rest > 1) {
-                        Exec(key, sumV_temp, rest - 1, targetValue);
+                        var list = Exec(sumV_temp, rest - 1, targetValue);
+                        if (list.Count > 0) {
+                            list.ForEach(l => result.Add($"{c}{l}"));
+                        }
                     }
                 }
+                if (result.Count > 0) r.AddRange(result);
             };
 
             // グーを出す
@@ -68,6 +74,8 @@ namespace rockpaperscissors001 {
 
             // パーを出す
             execAction('P');
+
+            return r;
         }
 
         /// <summary>
