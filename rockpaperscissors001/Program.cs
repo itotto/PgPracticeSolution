@@ -53,6 +53,8 @@ namespace rockpaperscissors001 {
             }
         }
 
+        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
+
         /// <summary>
         /// じゃんけんを出すパターンを検索
         /// </summary>
@@ -65,6 +67,10 @@ namespace rockpaperscissors001 {
             //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
             var lackV = targetValue - sumV;
             if (!_possibleValues.ContainsKey(lackV)) return r;
+
+            //** 既に計算済みの結果があればそれを返す(高速化の工夫) **//
+            var key = $"{sumV}-{rest}";
+            if (_history.ContainsKey(key)) return _history[key];
 
             // 手を決める
             Action<char> execAction = (c) => {
@@ -97,6 +103,11 @@ namespace rockpaperscissors001 {
 
             // パーを出す
             execAction('P');
+
+            if (rest <= 10) {
+                // 今回の処理結果を保存しておく
+                _history.Add(key, r);
+            }
 
             return r;
         }
