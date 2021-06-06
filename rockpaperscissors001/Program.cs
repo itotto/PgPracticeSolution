@@ -8,6 +8,8 @@ namespace rockpaperscissors001 {
     /// <remarks>https://paiza.jp/works/mondai/skillcheck_sample/janken/edit?language_uid=c-sharp</remarks>
     class Program {
 
+        // 2と5の組み合わせとしてありうる数値
+        static Dictionary<int, bool> _possibleValues = new Dictionary<int, bool>();
 
         static void Main() {
             // 初期条件入力
@@ -17,6 +19,9 @@ namespace rockpaperscissors001 {
 
             // 相手が出す手を取得
             var patterns = Console.ReadLine();
+
+            // 2と5の組み合わせで取れる数値を計算
+            CalcPossibleValues(n, m);
 
             // じゃんけんを実行
             var myPatterns = Exec(0, n, m);
@@ -32,27 +37,34 @@ namespace rockpaperscissors001 {
             Console.WriteLine(counts[0]);
         }
 
-        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
+        /// <summary>
+        /// 手の組み合わせでありうる数値を計算
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="targetValue"></param>
+        static void CalcPossibleValues(int n, int targetValue) {
+            // 足したらiになる組み合わせを考える
+            for (var i = n - 1; i > 0; i--) { // 
+                for (var j = i; j >= 0; j--) { // 
+                    var key = 2 * j + 5 * (i - j);
+                    if (key > targetValue) break;
+                    if (!_possibleValues.ContainsKey(key)) _possibleValues.Add(key, true);
+                }
+            }
+        }
 
         /// <summary>
         /// じゃんけんを出すパターンを検索
         /// </summary>
-        /// <param name="currentKey"></param>
         /// <param name="sumV"></param>
         /// <param name="rest"></param>
         /// <param name="targetValue"></param>
         static List<string> Exec(int sumV, int rest, int targetValue) {
-
-            //** 既に計算済みの結果があればそれを返す(高速化の工夫) **//
-            var key = $"{sumV}-{rest}";
-            if (_history.ContainsKey(key)) return _history[key];
-
             var r = new List<string>();
 
             //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
             var lackV = targetValue - sumV;
-            if (2 > lackV || (rest * 5) < lackV) return r;
-
+            if (!_possibleValues.ContainsKey(lackV)) return r;
 
             // 手を決める
             Action<char> execAction = (c) => {
@@ -85,9 +97,6 @@ namespace rockpaperscissors001 {
 
             // パーを出す
             execAction('P');
-
-            // 今回の処理結果を保存しておく
-            _history.Add(key, r);
 
             return r;
         }
