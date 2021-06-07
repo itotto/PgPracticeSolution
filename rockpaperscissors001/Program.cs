@@ -8,13 +8,6 @@ namespace rockpaperscissors001 {
     /// </summary>
     /// <remarks>https://paiza.jp/works/mondai/skillcheck_sample/janken/edit?language_uid=c-sharp</remarks>
     class Program {
-
-        // 2と5の組み合わせとしてありうる数値
-        static Dictionary<int, bool> _possibleValues = new Dictionary<int, bool>();
-
-        // 取りうるパターン
-        static List<Dictionary<char, int>> _myPatterns = new List<Dictionary<char, int>>();
-
         static void Main() {
             // 初期条件入力
             var conditions = Console.ReadLine().Split(' ');
@@ -26,15 +19,12 @@ namespace rockpaperscissors001 {
             var yourPatterns = new Dictionary<char, int> { { 'G', 0 }, { 'C', 0 }, { 'P', 0 }, };
             patterns.ForEach(p => yourPatterns[p]++);
 
-            // 2と5の組み合わせで作れる数値を検索しておく
-            CalcPossibleValues(n, m);
-
-            // じゃんけんを実行
-            Exec(string.Empty, 0, n, m);
+            // 2と5の組み合わせで作れる数値を検索する
+            var myPatterns = CalcPossibleValues(n, m);
 
             // 出した指の本数がmの全部のパターンを試してみる
             var counts = new List<int>();
-            _myPatterns.ForEach(my => {
+            myPatterns.ForEach(my => {
                 my.Add('G', n - (my['C'] + my['P'])); // グーを足す
                 counts.Add(CountWinning(my, yourPatterns));
             });
@@ -43,40 +33,31 @@ namespace rockpaperscissors001 {
             counts.Sort((x, y) => y - x);
 
             // 結果を表示
-            Console.WriteLine(counts[0]);
+            Console.WriteLine(counts.Count == 0 ? 0 : counts[0]);
         }
 
-
-        static void Exec(string currentKey, int sumV, int rest, int targetValue) {
-            //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
-            var lackV = targetValue - sumV;
-            if (!_possibleValues.ContainsKey(lackV)) return ;
-
-            Action<char> execAction = (c) => {
-                var key = $"{currentKey}{c}";
-
-                var addV = c == 'C' ? 2 : 5;
-
-                var sumV_temp = sumV + (c == 'C' ? 2 : 5);
-                if (sumV_temp == targetValue) { // 同じ場合はここでおしまい(キーは残りをグーで追加して登録する)
-                    var patterns = new Dictionary<char, int> { { 'C', 0 }, { 'P', 0 }, };
-                    key.ToList().ForEach(p => patterns[p]++);
-                    _myPatterns.Add(patterns);
-                } else if (sumV_temp < targetValue) { // 超えなかった場合は次以降を実行する
-                    if (rest > 1) Exec(key, sumV_temp, rest - 1, targetValue);
+        /// <summary>
+        /// 手の組み合わせでありうる数値を計算
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="targetValue"></param>
+        static List<Dictionary<char, int>> CalcPossibleValues(int n, int targetValue) {
+            var r = new List<Dictionary<char, int>>();
+            // 足したらiになる組み合わせを考える
+            for (var i = n - 1; i >= 0; i--) { // 
+                for (var j = i; j >= 0; j--) { // 
+                    var key = 2 * j + 5 * (i - j);
+                    if (key == targetValue) {
+                        var v = new Dictionary<char, int>();
+                        v.Add('C', j);
+                        v.Add('P', i - j);
+                        r.Add(v);
+                    }
+                    if (key > targetValue) break;
                 }
-            };
-
-            // チョキを出す
-            execAction('C');
-
-            // パーを出す
-            execAction('P');
+            }
+            return r;
         }
-
-
-        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
-
 
         /// <summary>
         /// 勝っている数を算出
@@ -97,22 +78,6 @@ namespace rockpaperscissors001 {
             cnt += Math.Min(yourPatterns['P'], myPatterns['C']);
 
             return cnt;
-        }
-
-        /// <summary>
-        /// 手の組み合わせでありうる数値を計算
-        /// </summary>
-        /// <param name="n"></param>
-        /// <param name="targetValue"></param>
-        static void CalcPossibleValues(int n, int targetValue) {
-            // 足したらiになる組み合わせを考える
-            for (var i = n - 1; i > 0; i--) { // 
-                for (var j = i; j >= 0; j--) { // 
-                    var key = 2 * j + 5 * (i - j);
-                    if (key > targetValue) break;
-                    if (!_possibleValues.ContainsKey(key)) _possibleValues.Add(key, true);
-                }
-            }
         }
     }
 }
