@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace rockpaperscissors001 {
     /// <summary>
@@ -11,6 +12,9 @@ namespace rockpaperscissors001 {
         // 2と5の組み合わせとしてありうる数値
         static Dictionary<int, bool> _possibleValues = new Dictionary<int, bool>();
 
+        // 取りうるパターン
+        static List<Dictionary<char, int>> _myPatterns = new List<Dictionary<char, int>>();
+
         static void Main() {
             // 初期条件入力
             var conditions = Console.ReadLine().Split(' ');
@@ -18,23 +22,81 @@ namespace rockpaperscissors001 {
             var m = Convert.ToInt32(conditions[1]);
 
             // 相手が出す手を取得
-            var patterns = Console.ReadLine();
+            var patterns = Console.ReadLine().ToList();
+            var yourPatterns = new Dictionary<char, int> { { 'G', 0 }, { 'C', 0 }, { 'P', 0 }, };
+            patterns.ForEach(p => yourPatterns[p]++);
 
-            // 2と5の組み合わせで取れる数値を計算
+            // 2と5の組み合わせで作れる数値を検索しておく
             CalcPossibleValues(n, m);
 
             // じゃんけんを実行
-            var myPatterns = Exec(0, n, m);
+            Exec(string.Empty, 0, n, m);
 
             // 出した指の本数がmの全部のパターンを試してみる
             var counts = new List<int>();
-            myPatterns.ForEach(my => counts.Add(CountWinning(my, patterns)));
+            _myPatterns.ForEach(my => {
+                my.Add('G', n - (my['C'] + my['P'])); // グーを足す
+                counts.Add(CountWinning(my, yourPatterns));
+            });
 
             // 並び替え
             counts.Sort((x, y) => y - x);
 
             // 結果を表示
             Console.WriteLine(counts[0]);
+        }
+
+
+        static void Exec(string currentKey, int sumV, int rest, int targetValue) {
+            //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
+            var lackV = targetValue - sumV;
+            if (!_possibleValues.ContainsKey(lackV)) return ;
+
+            Action<char> execAction = (c) => {
+                var key = $"{currentKey}{c}";
+
+                var addV = c == 'C' ? 2 : 5;
+
+                var sumV_temp = sumV + (c == 'C' ? 2 : 5);
+                if (sumV_temp == targetValue) { // 同じ場合はここでおしまい(キーは残りをグーで追加して登録する)
+                    var patterns = new Dictionary<char, int> { { 'C', 0 }, { 'P', 0 }, };
+                    key.ToList().ForEach(p => patterns[p]++);
+                    _myPatterns.Add(patterns);
+                } else if (sumV_temp < targetValue) { // 超えなかった場合は次以降を実行する
+                    if (rest > 1) Exec(key, sumV_temp, rest - 1, targetValue);
+                }
+            };
+
+            // チョキを出す
+            execAction('C');
+
+            // パーを出す
+            execAction('P');
+        }
+
+
+        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
+
+
+        /// <summary>
+        /// 勝っている数を算出
+        /// </summary>
+        /// <param name="myPatterns"></param>
+        /// <param name="yourPatterns"></param>
+        /// <returns></returns>
+        static int CountWinning(Dictionary<char, int> myPatterns, Dictionary<char, int> yourPatterns) {
+            var cnt = 0;
+
+            // 相手：グー、自分：パー
+            cnt += Math.Min(yourPatterns['G'], myPatterns['P']);
+
+            // 相手：チョキ、自分：グー
+            cnt += Math.Min(yourPatterns['C'], myPatterns['G']);
+
+            // 相手：パー、自分：チョキ
+            cnt += Math.Min(yourPatterns['P'], myPatterns['C']);
+
+            return cnt;
         }
 
         /// <summary>
@@ -51,94 +113,6 @@ namespace rockpaperscissors001 {
                     if (!_possibleValues.ContainsKey(key)) _possibleValues.Add(key, true);
                 }
             }
-        }
-
-        static Dictionary<string, List<string>> _history = new Dictionary<string, List<string>>();
-
-        /// <summary>
-        /// じゃんけんを出すパターンを検索
-        /// </summary>
-        /// <param name="sumV"></param>
-        /// <param name="rest"></param>
-        /// <param name="targetValue"></param>
-        static List<string> Exec(int sumV, int rest, int targetValue) {
-            var r = new List<string>();
-
-            //** 残りの数値がありえる数字かどうか(高速化の工夫) **//
-            var lackV = targetValue - sumV;
-            if (!_possibleValues.ContainsKey(lackV)) return r;
-
-            //** 既に計算済みの結果があればそれを返す(高速化の工夫) **//
-            var key = $"{sumV}-{rest}";
-            if (_history.ContainsKey(key)) return _history[key];
-
-            // 手を決める
-            Action<char> execAction = (c) => {
-                var result = new List<string>();
-
-                var addV = 0;
-                if (c == 'C') addV = 2;
-                else if (c == 'P') addV = 5;
-
-                var sumV_temp = sumV + addV;
-                if (sumV_temp == targetValue) { // 同じ場合はここでおしまい(キーは残りをグーで追加して登録する)
-                    // 残りを全部Gで埋めたキーを追加
-                    result.Add($"{c}{new string('G', rest - 1)}");
-                } else if (sumV_temp < targetValue) { // 超えなかった場合は次以降を実行する
-                    if (rest > 1) {
-                        var list = Exec(sumV_temp, rest - 1, targetValue);
-                        if (list.Count > 0) {
-                            list.ForEach(l => result.Add($"{c}{l}"));
-                        }
-                    }
-                }
-                if (result.Count > 0) r.AddRange(result);
-            };
-
-            // グーを出す
-            execAction('G');
-
-            // チョキを出す
-            execAction('C');
-
-            // パーを出す
-            execAction('P');
-
-            if (rest <= 10) {
-                // 今回の処理結果を保存しておく
-                _history.Add(key, r);
-            }
-
-            return r;
-        }
-
-        /// <summary>
-        /// 勝っている数を算出
-        /// </summary>
-        /// <param name="myPatterns"></param>
-        /// <param name="yourPatterns"></param>
-        /// <returns></returns>
-        static int CountWinning(string myPatterns, string yourPatterns) {
-            if (myPatterns.Length != yourPatterns.Length) throw new ApplicationException("impossible!");
-
-            var cnt = 0;
-            for (var i = 0; i < myPatterns.Length; i++) {
-                var your = yourPatterns[i];
-                switch (myPatterns[i]) {
-                    case 'G':
-                        if (your == 'C') cnt++;
-                        break;
-
-                    case 'C':
-                        if (your == 'P') cnt++;
-                        break;
-
-                    case 'P':
-                        if (your == 'G') cnt++;
-                        break;
-                }
-            }
-            return cnt;
         }
     }
 }
