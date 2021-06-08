@@ -49,19 +49,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "campinggame", "campinggame"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkillCheck", "SkillCheck", "{79A3C411-BB0E-4F03-9F8F-02CB4271813F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplication001", "multiplication001\multiplication001.csproj", "{3EAE9D31-2F77-4C93-8D02-D7E875652339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multiplication001", "multiplication001\multiplication001.csproj", "{3EAE9D31-2F77-4C93-8D02-D7E875652339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addition001", "addition001\addition001.csproj", "{B3724499-2FEC-4C9E-94E7-CC003F731C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "addition001", "addition001\addition001.csproj", "{B3724499-2FEC-4C9E-94E7-CC003F731C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimumnumber001", "minimumnumber001\minimumnumber001.csproj", "{3FC3463B-571C-443F-8608-FC1A371AE3AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "minimumnumber001", "minimumnumber001\minimumnumber001.csproj", "{3FC3463B-571C-443F-8608-FC1A371AE3AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matchletters001", "matchletters001\matchletters001.csproj", "{5C7FA784-0ADA-4D9B-8A15-9BC54D726DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matchletters001", "matchletters001\matchletters001.csproj", "{5C7FA784-0ADA-4D9B-8A15-9BC54D726DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fizzbuzz001", "fizzbuzz001\fizzbuzz001.csproj", "{D1A7968D-B091-4C6A-B60D-C648ECB76586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fizzbuzz001", "fizzbuzz001\fizzbuzz001.csproj", "{D1A7968D-B091-4C6A-B60D-C648ECB76586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longtableeelshop001", "longtableeelshop001\longtableeelshop001.csproj", "{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "longtableeelshop001", "longtableeelshop001\longtableeelshop001.csproj", "{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rockpaperscissors001", "rockpaperscissors001\rockpaperscissors001.csproj", "{537A00B3-C76A-483E-9090-AA758393BC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rockpaperscissors001", "rockpaperscissors001\rockpaperscissors001.csproj", "{537A00B3-C76A-483E-9090-AA758393BC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11masscamp001", "11masscamp001\11masscamp001.csproj", "{E058AA7C-4956-405F-9397-70CFC1590A91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{537A00B3-C76A-483E-9090-AA758393BC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537A00B3-C76A-483E-9090-AA758393BC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537A00B3-C76A-483E-9090-AA758393BC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E058AA7C-4956-405F-9397-70CFC1590A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E058AA7C-4956-405F-9397-70CFC1590A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E058AA7C-4956-405F-9397-70CFC1590A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E058AA7C-4956-405F-9397-70CFC1590A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +204,7 @@ Global
 		{D1A7968D-B091-4C6A-B60D-C648ECB76586} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
 		{32C17850-4FFC-4DCF-8667-D1B0ECBB1F57} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
 		{537A00B3-C76A-483E-9090-AA758393BC74} = {79A3C411-BB0E-4F03-9F8F-02CB4271813F}
+		{E058AA7C-4956-405F-9397-70CFC1590A91} = {56A287EB-F9C6-453F-B606-93C8E2A7EA53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
