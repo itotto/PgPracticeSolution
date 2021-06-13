@@ -29,7 +29,10 @@ namespace numberofcampturns001 {
         // 未占拠の領地
         const char NOT_OCCUPIED = '.';
 
-        // 未占拠の領地
+        // 障害物
+        const char OBSTACLE = '#';
+
+        // 一定の距離にある場合の置換用文字
         const char REPLACE_CHAR = '?';
 
         static void Main() {
@@ -53,7 +56,7 @@ namespace numberofcampturns001 {
                     _areas[i, j] = line[j];
                     if (found && line[j] == MYAREA) {
                         _areas[i, j] = MYAREA;
-                        _targets.Enqueue(new Pos { X = j, Y = i});
+                        _targets.Enqueue(new Pos { X = j, Y = i });
                         start_Y = i;
                         start_X = j;
                         found = false;
@@ -105,7 +108,8 @@ namespace numberofcampturns001 {
         /// <param name="next_X"></param>
         /// <param name="height"></param>
         /// <param name="width"></param>
-        /// <param name="order"></param>
+        /// <param name="start_Y"></param>
+        /// <param name="start_X"></param>
         static void Occupation(int next_Y, int next_X, int height, int width, int start_Y, int start_X) {
             // 範囲内にある場合のみ
             if ((0 <= next_X && next_X < width) &&
@@ -113,11 +117,51 @@ namespace numberofcampturns001 {
                 // .の場合
                 if (_areas[next_Y, next_X] == NOT_OCCUPIED) {
                     var distance = Math.Abs(start_Y - next_Y) + Math.Abs(start_X - next_X);
-                    _areas[next_Y, next_X] = _sp_distances.ContainsKey(distance) ? REPLACE_CHAR : MYAREA;
-                    //_areas[next_Y, next_X] = MYAREA;
+
+                    // ここで経路をチェックして # を迂回できる経路があれば ? 、なければ * のままにする
+                    if (_sp_distances.ContainsKey(distance)) {
+                        _areas[next_Y, next_X] = ObstacleExists(start_Y, start_X, next_Y, next_X) ? MYAREA : REPLACE_CHAR;
+                    } else {
+                        _areas[next_Y, next_X] = MYAREA;
+                    }
                     _targets.Enqueue(new Pos { Y = next_Y, X = next_X });
                 }
             }
+        }
+
+        static Dictionary<string, bool> _history = new Dictionary<string, bool>();
+
+        /// <summary>
+        /// 経路上に障害物が存在するかどうか
+        /// </summary>
+        /// <param name="current_Y"></param>
+        /// <param name="current_X"></param>
+        /// <param name="target_Y"></param>
+        /// <param name="target_X"></param>
+        /// <returns></returns>
+        static bool ObstacleExists(int current_Y, int current_X, int target_Y, int target_X) {
+            var key = $"{current_Y}-{current_X}-{target_Y}-{target_X}";
+            if (_history.ContainsKey(key)) return _history[key];
+
+            // 自分自身
+            var r = _areas[current_Y, current_X] == OBSTACLE;
+
+            if (current_Y != target_Y || current_X != target_X) {
+                // Y方向に移動する場合(＋ここまでの経路がすべてOK)
+                if (!r && current_Y != target_Y) {
+                    r = ObstacleExists(target_Y - current_Y > 0 ? current_Y + 1 : current_Y - 1, current_X, target_Y, target_X);
+                }
+
+                // X方向に移動する場合
+                if (!r && current_X != target_X) {
+                    r = ObstacleExists(target_Y, target_X - current_X > 0 ? current_X + 1 : current_X - 1, target_Y, target_X);
+                }
+            }
+
+            // キーを登録しておく
+            _history.Add(key, r);
+
+            return r;
         }
 
         /// <summary>
