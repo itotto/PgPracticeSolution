@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "endigingofcamp001", "endigi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "effortofcamp001", "effortofcamp001\effortofcamp001.csproj", "{4789114F-C485-476F-A1E7-1DAF8F6CF9E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numberofcampturns001", "numberofcampturns001\numberofcampturns001.csproj", "{8642D0B2-7212-4C86-A79A-607835AE8D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{4789114F-C485-476F-A1E7-1DAF8F6CF9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4789114F-C485-476F-A1E7-1DAF8F6CF9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4789114F-C485-476F-A1E7-1DAF8F6CF9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8642D0B2-7212-4C86-A79A-607835AE8D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8642D0B2-7212-4C86-A79A-607835AE8D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8642D0B2-7212-4C86-A79A-607835AE8D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8642D0B2-7212-4C86-A79A-607835AE8D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +232,7 @@ Global
 		{1629F5AB-5A1E-491D-A3E8-693768CC077B} = {56A287EB-F9C6-453F-B606-93C8E2A7EA53}
 		{C2188262-56FC-4483-8B6A-5382724C3610} = {56A287EB-F9C6-453F-B606-93C8E2A7EA53}
 		{4789114F-C485-476F-A1E7-1DAF8F6CF9E4} = {56A287EB-F9C6-453F-B606-93C8E2A7EA53}
+		{8642D0B2-7212-4C86-A79A-607835AE8D75} = {56A287EB-F9C6-453F-B606-93C8E2A7EA53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
