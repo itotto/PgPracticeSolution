@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lottery001", "lottery001\lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "baseballumpire001", "baseballumpire001\baseballumpire001.csproj", "{CD868DC5-3389-403B-BE80-A0E4F80429A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxaveragenumberdv001", "maxaveragenumberdv001\maxaveragenumberdv001.csproj", "{BD569AF8-9F30-4219-B865-070ABEF1F19F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maxaveragenumberdv001", "maxaveragenumberdv001\maxaveragenumberdv001.csproj", "{BD569AF8-9F30-4219-B865-070ABEF1F19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shiritori001", "shiritori001\shiritori001.csproj", "{1A954585-C9BB-45DA-BA44-35C410DA11FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +229,10 @@ Global
 		{BD569AF8-9F30-4219-B865-070ABEF1F19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD569AF8-9F30-4219-B865-070ABEF1F19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD569AF8-9F30-4219-B865-070ABEF1F19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +276,7 @@ Global
 		{31778A4B-47CE-4428-8D02-2F52D4D8EDEE} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 		{CD868DC5-3389-403B-BE80-A0E4F80429A6} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 		{BD569AF8-9F30-4219-B865-070ABEF1F19F} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
+		{1A954585-C9BB-45DA-BA44-35C410DA11FC} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
