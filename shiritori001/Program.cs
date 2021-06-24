@@ -27,42 +27,30 @@ namespace shiritori001 {
 
             var before = string.Empty;
             // 発言ログを全部確認
-            //for (var i = 0; i < remarks.Count; i++) {
             foreach (var r in remarks) {
                 if (targets.Count == 0) break;
                 var p = targets.Dequeue(); // 発言者の番号
-                //var r = remarks[i];
 
                 // 許容されている単語か
                 if (words.ContainsKey(r) && words[r] > 0) {
-                    words[r]--;
-                } else {
-                    before = string.Empty;
-                    continue;
-                }
 
-                // しりとりになっているか(前の人の最後の文字と頭文字が一致しているか)
-                if (!string.IsNullOrEmpty(before)) {
-                    if (before[before.Length - 1] != r[0]) {
-                        before = string.Empty;
-                        continue;
+                    // しりとりになっているか(前の人の最後の文字と頭文字が一致しているか)
+                    if (string.IsNullOrEmpty(before) || before[before.Length - 1] == r[0]) {
+
+                        // zで終わっていないか
+                        if (r[r.Length - 1] != 'z') {
+                            words[r]--;
+                            before = r;
+                            targets.Enqueue(p);
+                            continue;
+                        }
                     }
                 }
-
-                // zで終わっていないか
-                if (r[r.Length - 1] == 'z') {
-                    before = string.Empty;
-                    continue;
-                }
-
-                before = r;
-                targets.Enqueue(p);
+                before = string.Empty;
             }
-
 
             // 結果表示用
             var result = new List<int>(targets.Count);
-
             while (targets.Count > 0) {
                 result.Add(targets.Dequeue());
             }
