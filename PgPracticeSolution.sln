@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "baseballumpire001", "baseba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maxaveragenumberdv001", "maxaveragenumberdv001\maxaveragenumberdv001.csproj", "{BD569AF8-9F30-4219-B865-070ABEF1F19F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shiritori001", "shiritori001\shiritori001.csproj", "{1A954585-C9BB-45DA-BA44-35C410DA11FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shiritori001", "shiritori001\shiritori001.csproj", "{1A954585-C9BB-45DA-BA44-35C410DA11FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matchinggame001", "matchinggame001\matchinggame001.csproj", "{1B62DC14-AB6E-469C-87E6-33E508E624FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +235,10 @@ Global
 		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A954585-C9BB-45DA-BA44-35C410DA11FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B62DC14-AB6E-469C-87E6-33E508E624FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B62DC14-AB6E-469C-87E6-33E508E624FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B62DC14-AB6E-469C-87E6-33E508E624FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B62DC14-AB6E-469C-87E6-33E508E624FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +283,7 @@ Global
 		{CD868DC5-3389-403B-BE80-A0E4F80429A6} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 		{BD569AF8-9F30-4219-B865-070ABEF1F19F} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 		{1A954585-C9BB-45DA-BA44-35C410DA11FC} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
+		{1B62DC14-AB6E-469C-87E6-33E508E624FA} = {9AA95928-E3F1-4676-A48F-A3F4D7913E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
