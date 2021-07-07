@@ -97,7 +97,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{7159B0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "selfintroduction001", "selfintroduction001\selfintroduction001.csproj", "{F9EE28EB-BDEB-4AFC-91EE-FC187A4400A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numbersort001", "numbersort001\numbersort001.csproj", "{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numbersort001", "numbersort001\numbersort001.csproj", "{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iforternaryoperator001", "iforternaryoperator001\iforternaryoperator001.csproj", "{6BBC5107-F510-4C59-B557-23183CEED782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBC5107-F510-4C59-B557-23183CEED782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBC5107-F510-4C59-B557-23183CEED782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBC5107-F510-4C59-B557-23183CEED782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBC5107-F510-4C59-B557-23183CEED782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -309,6 +315,7 @@ Global
 		{E383DBC5-465B-4DE5-AAF7-29FBF7F8B42E} = {B3715BDA-8786-4EB6-BD6D-031FB0AED7AD}
 		{F9EE28EB-BDEB-4AFC-91EE-FC187A4400A8} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
 		{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
+		{6BBC5107-F510-4C59-B557-23183CEED782} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
