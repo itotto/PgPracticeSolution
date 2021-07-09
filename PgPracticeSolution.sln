@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "selfintroduction001", "self
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numbersort001", "numbersort001\numbersort001.csproj", "{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iforternaryoperator001", "iforternaryoperator001\iforternaryoperator001.csproj", "{6BBC5107-F510-4C59-B557-23183CEED782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iforternaryoperator001", "iforternaryoperator001\iforternaryoperator001.csproj", "{6BBC5107-F510-4C59-B557-23183CEED782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumcalculation001", "sumcalculation001\sumcalculation001.csproj", "{3D88B1E3-37E6-4112-B1F7-826D15434FC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{6BBC5107-F510-4C59-B557-23183CEED782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BBC5107-F510-4C59-B557-23183CEED782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BBC5107-F510-4C59-B557-23183CEED782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D88B1E3-37E6-4112-B1F7-826D15434FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D88B1E3-37E6-4112-B1F7-826D15434FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D88B1E3-37E6-4112-B1F7-826D15434FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D88B1E3-37E6-4112-B1F7-826D15434FC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +322,7 @@ Global
 		{F9EE28EB-BDEB-4AFC-91EE-FC187A4400A8} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
 		{E31EDAE0-D1AB-4BA7-B0EA-63C1B0DA9C9E} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
 		{6BBC5107-F510-4C59-B557-23183CEED782} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
+		{3D88B1E3-37E6-4112-B1F7-826D15434FC6} = {7159B02E-2050-40EC-9F1E-E68486AFFC68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
