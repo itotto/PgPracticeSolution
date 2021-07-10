@@ -1,6 +1,10 @@
 ﻿using System;
 
 namespace bubblesort001 {
+    /// <summary>
+    /// バブルソート
+    /// </summary>
+    /// <remarks>https://paiza.jp/works/mondai/sort_naive/sort_naive__bubble/edit?language_uid=c-sharp</remarks>
     class Program {
         static void Main() {
             var n = Convert.ToInt32(Console.ReadLine());
