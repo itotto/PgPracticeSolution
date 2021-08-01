@@ -20,7 +20,7 @@ namespace shellsort001 {
             // 間隔配列の数
             var k = Convert.ToInt32(Console.ReadLine());
 
-            // 操作するデータ
+            // 間隔配列の取得
             var intervals = new int[k];
             var condition2 = Console.ReadLine().Split(' ');
             for (var i = 0; i < k; i++) {
@@ -32,12 +32,30 @@ namespace shellsort001 {
             // ソート
             foreach (var interval in intervals) {
                 Console.WriteLine($"interval : {interval}");
-                for (var j = 0; j < n - interval; j++) {
-                    Console.WriteLine($"j : {j}");
-                    if (current[j] > current[j + interval]) {
-                        var tmp = current[j + interval];
-                        current[j + interval] = current[j];
-                        current[j] = tmp;
+
+                // 0から順番にいけるところまで部分列を操作する
+                for (var i = 0; i < n - interval + 1; i++) {
+                    Console.WriteLine($"i : {i}");
+
+                    // 部分列を挿入ソートする
+                    for (var j = i; j < n; j += interval) {
+                        var pos = -1;
+                        var min = current[j];
+                        var x = j;
+                        while (
+
+                        if (pos >= 0) {
+                        }
+                        // 
+
+
+                        if (min != current[j])
+                    }
+
+                    if (current[i] > current[i + interval]) {
+                        var tmp = current[i + interval];
+                        current[i + interval] = current[i];
+                        current[i] = tmp;
                         num_of_moves++;
                     }
                 }
