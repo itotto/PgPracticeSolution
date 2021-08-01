@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diffrenceofsequence001", "d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intsearch001", "intsearch001\intsearch001.csproj", "{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sequencesearch001", "sequencesearch001\sequencesearch001.csproj", "{3C541397-DB88-43D4-B161-4F429AF8DD03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -323,6 +325,10 @@ Global
 		{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -381,6 +387,7 @@ Global
 		{128F91BE-CBF7-4052-BBB6-E5C21919A2DD} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{AD6C6DF5-B2C2-4411-9074-D096E7017105} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{1CDA7120-8EBE-4847-92CD-BC1FDD77C821} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
+		{3C541397-DB88-43D4-B161-4F429AF8DD03} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
