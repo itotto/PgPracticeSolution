@@ -111,17 +111,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shellsort001", "shellsort00
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STEINS;GATE", "STEINS;GATE", "{19A02845-C28C-43FF-9B7E-B2C1FDC2796C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "regularrepresentation001", "regularrepresentation001\regularrepresentation001.csproj", "{95F248BD-1E0D-49EE-A266-9AA9AFFF1743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "regularrepresentation001", "regularrepresentation001\regularrepresentation001.csproj", "{95F248BD-1E0D-49EE-A266-9AA9AFFF1743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "performanceanalysis001", "performanceanalysis001\performanceanalysis001.csproj", "{E7F7EA3E-8735-4222-A53C-DD5497116925}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performanceanalysis001", "performanceanalysis001\performanceanalysis001.csproj", "{E7F7EA3E-8735-4222-A53C-DD5497116925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diffrenceofint001", "diffrenceofint001\diffrenceofint001.csproj", "{128F91BE-CBF7-4052-BBB6-E5C21919A2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diffrenceofint001", "diffrenceofint001\diffrenceofint001.csproj", "{128F91BE-CBF7-4052-BBB6-E5C21919A2DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diffrenceofsequence001", "diffrenceofsequence001\diffrenceofsequence001.csproj", "{AD6C6DF5-B2C2-4411-9074-D096E7017105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diffrenceofsequence001", "diffrenceofsequence001\diffrenceofsequence001.csproj", "{AD6C6DF5-B2C2-4411-9074-D096E7017105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intsearch001", "intsearch001\intsearch001.csproj", "{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "intsearch001", "intsearch001\intsearch001.csproj", "{1CDA7120-8EBE-4847-92CD-BC1FDD77C821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sequencesearch001", "sequencesearch001\sequencesearch001.csproj", "{3C541397-DB88-43D4-B161-4F429AF8DD03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sequencesearch001", "sequencesearch001\sequencesearch001.csproj", "{3C541397-DB88-43D4-B161-4F429AF8DD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exceptionhandling001", "exceptionhandling001\exceptionhandling001.csproj", "{303327B6-5F34-4A38-B55F-5E8AB88544DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,6 +331,10 @@ Global
 		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C541397-DB88-43D4-B161-4F429AF8DD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303327B6-5F34-4A38-B55F-5E8AB88544DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303327B6-5F34-4A38-B55F-5E8AB88544DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303327B6-5F34-4A38-B55F-5E8AB88544DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303327B6-5F34-4A38-B55F-5E8AB88544DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -388,6 +394,7 @@ Global
 		{AD6C6DF5-B2C2-4411-9074-D096E7017105} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{1CDA7120-8EBE-4847-92CD-BC1FDD77C821} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{3C541397-DB88-43D4-B161-4F429AF8DD03} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
+		{303327B6-5F34-4A38-B55F-5E8AB88544DB} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
