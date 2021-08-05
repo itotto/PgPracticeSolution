@@ -125,7 +125,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sequencesearch001", "sequen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exceptionhandling001", "exceptionhandling001\exceptionhandling001.csproj", "{303327B6-5F34-4A38-B55F-5E8AB88544DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dungeondeadlock001", "dungeondeadlock001\dungeondeadlock001.csproj", "{4A7F3162-A2C2-4D47-A315-9938346459F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dungeondeadlock001", "dungeondeadlock001\dungeondeadlock001.csproj", "{4A7F3162-A2C2-4D47-A315-9938346459F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dungeondeadlock002", "dungeondeadlock002\dungeondeadlock002.csproj", "{E7FEBD17-F266-4F07-B07A-373E01A374C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -341,6 +343,10 @@ Global
 		{4A7F3162-A2C2-4D47-A315-9938346459F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A7F3162-A2C2-4D47-A315-9938346459F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A7F3162-A2C2-4D47-A315-9938346459F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FEBD17-F266-4F07-B07A-373E01A374C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FEBD17-F266-4F07-B07A-373E01A374C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FEBD17-F266-4F07-B07A-373E01A374C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FEBD17-F266-4F07-B07A-373E01A374C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -402,6 +408,7 @@ Global
 		{3C541397-DB88-43D4-B161-4F429AF8DD03} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{303327B6-5F34-4A38-B55F-5E8AB88544DB} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{4A7F3162-A2C2-4D47-A315-9938346459F4} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
+		{E7FEBD17-F266-4F07-B07A-373E01A374C5} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
