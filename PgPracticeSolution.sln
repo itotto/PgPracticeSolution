@@ -127,9 +127,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exceptionhandling001", "exc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dungeondeadlock001", "dungeondeadlock001\dungeondeadlock001.csproj", "{4A7F3162-A2C2-4D47-A315-9938346459F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dungeondeadlock002", "dungeondeadlock002\dungeondeadlock002.csproj", "{E7FEBD17-F266-4F07-B07A-373E01A374C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dungeondeadlock002", "dungeondeadlock002\dungeondeadlock002.csproj", "{E7FEBD17-F266-4F07-B07A-373E01A374C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dungeondeadlock003", "dungeondeadlock003\dungeondeadlock003.csproj", "{DB38567B-27D5-48E7-BFA4-9C40CB81447B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dungeondeadlock003", "dungeondeadlock003\dungeondeadlock003.csproj", "{DB38567B-27D5-48E7-BFA4-9C40CB81447B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dungeondeadlock004", "dungeondeadlock004\dungeondeadlock004.csproj", "{F93F91A6-86E3-4DDA-846A-6DE53166435F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -353,6 +355,10 @@ Global
 		{DB38567B-27D5-48E7-BFA4-9C40CB81447B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB38567B-27D5-48E7-BFA4-9C40CB81447B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB38567B-27D5-48E7-BFA4-9C40CB81447B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93F91A6-86E3-4DDA-846A-6DE53166435F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93F91A6-86E3-4DDA-846A-6DE53166435F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93F91A6-86E3-4DDA-846A-6DE53166435F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93F91A6-86E3-4DDA-846A-6DE53166435F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -416,6 +422,7 @@ Global
 		{4A7F3162-A2C2-4D47-A315-9938346459F4} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{E7FEBD17-F266-4F07-B07A-373E01A374C5} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 		{DB38567B-27D5-48E7-BFA4-9C40CB81447B} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
+		{F93F91A6-86E3-4DDA-846A-6DE53166435F} = {19A02845-C28C-43FF-9B7E-B2C1FDC2796C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
