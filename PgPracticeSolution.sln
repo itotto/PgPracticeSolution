@@ -269,17 +269,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gomoku001", "gomoku001\gomo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Divination", "Divination", "{F6664C98-AE3A-4C7B-A53C-9C70B913AE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "useassociativearray001", "useassociativearray001\useassociativearray001.csproj", "{52FEE8B3-A528-4D58-88C0-A86B8224D23B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "useassociativearray001", "useassociativearray001\useassociativearray001.csproj", "{52FEE8B3-A528-4D58-88C0-A86B8224D23B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bloodtypedataprocessing001", "bloodtypedataprocessing001\bloodtypedataprocessing001.csproj", "{195E9171-CEC5-4B5E-8EA2-1BBEC075F013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bloodtypedataprocessing001", "bloodtypedataprocessing001\bloodtypedataprocessing001.csproj", "{195E9171-CEC5-4B5E-8EA2-1BBEC075F013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bloodtype001", "bloodtype001\bloodtype001.csproj", "{5FED7AD9-4B0B-4423-AE37-E89E0AD29BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bloodtype001", "bloodtype001\bloodtype001.csproj", "{5FED7AD9-4B0B-4423-AE37-E89E0AD29BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bloodtypedivination001", "bloodtypedivination001\bloodtypedivination001.csproj", "{AD6C1169-F674-47A2-B23B-897D84EF7C9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bloodtypedivination001", "bloodtypedivination001\bloodtypedivination001.csproj", "{AD6C1169-F674-47A2-B23B-897D84EF7C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "divinationresult001", "divinationresult001\divinationresult001.csproj", "{870174A0-B892-4571-AA2E-C96B6F884763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "divinationresult001", "divinationresult001\divinationresult001.csproj", "{870174A0-B892-4571-AA2E-C96B6F884763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "divination001", "divination001\divination001.csproj", "{D72E6D9F-84E9-4104-A382-36B0A4B7BE47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "divination001", "divination001\divination001.csproj", "{D72E6D9F-84E9-4104-A382-36B0A4B7BE47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BattleSet", "BattleSet", "{228B8C31-B208-448C-89A6-F9F884C8A71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passjudgement001", "passjudgement001\passjudgement001.csproj", "{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "finddifference001", "finddifference001\finddifference001.csproj", "{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notationofmidnighttime001", "notationofmidnighttime001\notationofmidnighttime001.csproj", "{029C4AA5-29C0-4D22-AA98-561FDA54D16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "befinetomorrow", "befinetomorrow\befinetomorrow.csproj", "{03F713B9-53FF-419B-8737-EEDA3C29899D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boiledegg001", "boiledegg001\boiledegg001.csproj", "{331B361C-1531-4494-9ED7-A9A724FF81D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mranonymous001", "mranonymous001\mranonymous001.csproj", "{DFE4ACB2-3B54-43B1-B657-361D2895A457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -755,6 +769,30 @@ Global
 		{D72E6D9F-84E9-4104-A382-36B0A4B7BE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D72E6D9F-84E9-4104-A382-36B0A4B7BE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D72E6D9F-84E9-4104-A382-36B0A4B7BE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029C4AA5-29C0-4D22-AA98-561FDA54D16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029C4AA5-29C0-4D22-AA98-561FDA54D16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029C4AA5-29C0-4D22-AA98-561FDA54D16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029C4AA5-29C0-4D22-AA98-561FDA54D16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F713B9-53FF-419B-8737-EEDA3C29899D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F713B9-53FF-419B-8737-EEDA3C29899D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F713B9-53FF-419B-8737-EEDA3C29899D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F713B9-53FF-419B-8737-EEDA3C29899D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331B361C-1531-4494-9ED7-A9A724FF81D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331B361C-1531-4494-9ED7-A9A724FF81D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331B361C-1531-4494-9ED7-A9A724FF81D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331B361C-1531-4494-9ED7-A9A724FF81D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -892,6 +930,12 @@ Global
 		{AD6C1169-F674-47A2-B23B-897D84EF7C9A} = {F6664C98-AE3A-4C7B-A53C-9C70B913AE41}
 		{870174A0-B892-4571-AA2E-C96B6F884763} = {F6664C98-AE3A-4C7B-A53C-9C70B913AE41}
 		{D72E6D9F-84E9-4104-A382-36B0A4B7BE47} = {F6664C98-AE3A-4C7B-A53C-9C70B913AE41}
+		{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{029C4AA5-29C0-4D22-AA98-561FDA54D16E} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{03F713B9-53FF-419B-8737-EEDA3C29899D} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{331B361C-1531-4494-9ED7-A9A724FF81D1} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{DFE4ACB2-3B54-43B1-B657-361D2895A457} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
