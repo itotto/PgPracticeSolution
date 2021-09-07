@@ -283,17 +283,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "divination001", "divination
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BattleSet", "BattleSet", "{228B8C31-B208-448C-89A6-F9F884C8A71E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passjudgement001", "passjudgement001\passjudgement001.csproj", "{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passjudgement001", "passjudgement001\passjudgement001.csproj", "{69683DDF-9F33-4E5B-ADEF-7198E6DB6F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "finddifference001", "finddifference001\finddifference001.csproj", "{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "finddifference001", "finddifference001\finddifference001.csproj", "{95060BDA-E143-4EBA-BF05-6B7B4FF86D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notationofmidnighttime001", "notationofmidnighttime001\notationofmidnighttime001.csproj", "{029C4AA5-29C0-4D22-AA98-561FDA54D16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "notationofmidnighttime001", "notationofmidnighttime001\notationofmidnighttime001.csproj", "{029C4AA5-29C0-4D22-AA98-561FDA54D16E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "befinetomorrow", "befinetomorrow\befinetomorrow.csproj", "{03F713B9-53FF-419B-8737-EEDA3C29899D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "befinetomorrow", "befinetomorrow\befinetomorrow.csproj", "{03F713B9-53FF-419B-8737-EEDA3C29899D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boiledegg001", "boiledegg001\boiledegg001.csproj", "{331B361C-1531-4494-9ED7-A9A724FF81D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "boiledegg001", "boiledegg001\boiledegg001.csproj", "{331B361C-1531-4494-9ED7-A9A724FF81D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mranonymous001", "mranonymous001\mranonymous001.csproj", "{DFE4ACB2-3B54-43B1-B657-361D2895A457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mranonymous001", "mranonymous001\mranonymous001.csproj", "{DFE4ACB2-3B54-43B1-B657-361D2895A457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linesymmetrypointsymmetry001", "linesymmetrypointsymmetry001\linesymmetrypointsymmetry001.csproj", "{4DE4889A-586F-4DD8-908B-D90DDECFA06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onlyoneitemperperson001", "onlyoneitemperperson001\onlyoneitemperperson001.csproj", "{4E7ED870-1A87-4040-BCF4-608FC6B82124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yamadalikesodd001", "yamadalikesodd001\yamadalikesodd001.csproj", "{29E756C5-1EF7-4FDA-A271-6C60656E2470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -793,6 +799,18 @@ Global
 		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE4ACB2-3B54-43B1-B657-361D2895A457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE4889A-586F-4DD8-908B-D90DDECFA06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE4889A-586F-4DD8-908B-D90DDECFA06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE4889A-586F-4DD8-908B-D90DDECFA06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE4889A-586F-4DD8-908B-D90DDECFA06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7ED870-1A87-4040-BCF4-608FC6B82124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7ED870-1A87-4040-BCF4-608FC6B82124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7ED870-1A87-4040-BCF4-608FC6B82124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7ED870-1A87-4040-BCF4-608FC6B82124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -936,6 +954,9 @@ Global
 		{03F713B9-53FF-419B-8737-EEDA3C29899D} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 		{331B361C-1531-4494-9ED7-A9A724FF81D1} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 		{DFE4ACB2-3B54-43B1-B657-361D2895A457} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{4DE4889A-586F-4DD8-908B-D90DDECFA06E} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{4E7ED870-1A87-4040-BCF4-608FC6B82124} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{29E756C5-1EF7-4FDA-A271-6C60656E2470} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
