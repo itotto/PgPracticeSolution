@@ -295,11 +295,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "boiledegg001", "boiledegg00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mranonymous001", "mranonymous001\mranonymous001.csproj", "{DFE4ACB2-3B54-43B1-B657-361D2895A457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linesymmetrypointsymmetry001", "linesymmetrypointsymmetry001\linesymmetrypointsymmetry001.csproj", "{4DE4889A-586F-4DD8-908B-D90DDECFA06E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linesymmetrypointsymmetry001", "linesymmetrypointsymmetry001\linesymmetrypointsymmetry001.csproj", "{4DE4889A-586F-4DD8-908B-D90DDECFA06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onlyoneitemperperson001", "onlyoneitemperperson001\onlyoneitemperperson001.csproj", "{4E7ED870-1A87-4040-BCF4-608FC6B82124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onlyoneitemperperson001", "onlyoneitemperperson001\onlyoneitemperperson001.csproj", "{4E7ED870-1A87-4040-BCF4-608FC6B82124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yamadalikesodd001", "yamadalikesodd001\yamadalikesodd001.csproj", "{29E756C5-1EF7-4FDA-A271-6C60656E2470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yamadalikesodd001", "yamadalikesodd001\yamadalikesodd001.csproj", "{29E756C5-1EF7-4FDA-A271-6C60656E2470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearch", "LinearSearch", "{A34EF4B7-B10A-4DB3-A05A-17AB8859F521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findvaluepos001", "findvaluepos001\findvaluepos001.csproj", "{A9F8357E-95D8-4317-B207-3C14E288A839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "counttargetvalue001", "counttargetvalue001\counttargetvalue001.csproj", "{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findvaluepos002", "findvaluepos002\findvaluepos002.csproj", "{DBDB0304-0289-42DB-BC63-FF86FEDD1352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findvaluepos003", "findvaluepos003\findvaluepos003.csproj", "{27FD3A39-5304-450E-9331-B7EF2521AC47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -811,6 +821,22 @@ Global
 		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E756C5-1EF7-4FDA-A271-6C60656E2470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F8357E-95D8-4317-B207-3C14E288A839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F8357E-95D8-4317-B207-3C14E288A839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F8357E-95D8-4317-B207-3C14E288A839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F8357E-95D8-4317-B207-3C14E288A839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDB0304-0289-42DB-BC63-FF86FEDD1352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDB0304-0289-42DB-BC63-FF86FEDD1352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDB0304-0289-42DB-BC63-FF86FEDD1352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDB0304-0289-42DB-BC63-FF86FEDD1352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FD3A39-5304-450E-9331-B7EF2521AC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FD3A39-5304-450E-9331-B7EF2521AC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FD3A39-5304-450E-9331-B7EF2521AC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FD3A39-5304-450E-9331-B7EF2521AC47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -957,6 +983,10 @@ Global
 		{4DE4889A-586F-4DD8-908B-D90DDECFA06E} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 		{4E7ED870-1A87-4040-BCF4-608FC6B82124} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
 		{29E756C5-1EF7-4FDA-A271-6C60656E2470} = {228B8C31-B208-448C-89A6-F9F884C8A71E}
+		{A9F8357E-95D8-4317-B207-3C14E288A839} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{B2B2FCBE-D1A6-4DF8-BD68-65320A9A7982} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{DBDB0304-0289-42DB-BC63-FF86FEDD1352} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{27FD3A39-5304-450E-9331-B7EF2521AC47} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
