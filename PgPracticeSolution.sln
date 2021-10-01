@@ -317,13 +317,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maxmin002", "maxmin002\maxm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maxmin003", "maxmin003\maxmin003.csproj", "{381ACDA5-3561-4435-A21B-34658D01ABF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evensearch001", "evensearch001\evensearch001.csproj", "{F29BDF7A-86C9-45AE-9422-C7125907311C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "evensearch001", "evensearch001\evensearch001.csproj", "{F29BDF7A-86C9-45AE-9422-C7125907311C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oddsearch001", "oddsearch001\oddsearch001.csproj", "{55591791-4F02-415A-8E89-5C3F58A35322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oddsearch001", "oddsearch001\oddsearch001.csproj", "{55591791-4F02-415A-8E89-5C3F58A35322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditionalminimum001", "conditionalminimum001\conditionalminimum001.csproj", "{D6BD239F-87EA-496F-BE30-21716759F704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditionalminimum001", "conditionalminimum001\conditionalminimum001.csproj", "{D6BD239F-87EA-496F-BE30-21716759F704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditionalmaximum001", "conditionalmaximum001\conditionalmaximum001.csproj", "{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditionalmaximum001", "conditionalmaximum001\conditionalmaximum001.csproj", "{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "point2pointdistance001", "point2pointdistance001\point2pointdistance001.csproj", "{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pointincludeinrectangle001", "pointincludeinrectangle001\pointincludeinrectangle001.csproj", "{932E4148-ADF1-4579-9D74-358FA9C70247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listofhonorstudent001", "listofhonorstudent001\listofhonorstudent001.csproj", "{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listofhonorstudent002", "listofhonorstudent002\listofhonorstudent002.csproj", "{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -879,6 +887,22 @@ Global
 		{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932E4148-ADF1-4579-9D74-358FA9C70247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932E4148-ADF1-4579-9D74-358FA9C70247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932E4148-ADF1-4579-9D74-358FA9C70247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932E4148-ADF1-4579-9D74-358FA9C70247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1036,6 +1060,10 @@ Global
 		{55591791-4F02-415A-8E89-5C3F58A35322} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 		{D6BD239F-87EA-496F-BE30-21716759F704} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 		{211FD03D-A53E-4F2B-AECA-EA69EA4E6954} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{932E4148-ADF1-4579-9D74-358FA9C70247} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
