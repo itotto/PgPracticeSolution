@@ -325,13 +325,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditionalminimum001", "co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditionalmaximum001", "conditionalmaximum001\conditionalmaximum001.csproj", "{211FD03D-A53E-4F2B-AECA-EA69EA4E6954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "point2pointdistance001", "point2pointdistance001\point2pointdistance001.csproj", "{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "point2pointdistance001", "point2pointdistance001\point2pointdistance001.csproj", "{4B6BF14E-7E83-4E0F-8DFC-E0DA365188AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pointincludeinrectangle001", "pointincludeinrectangle001\pointincludeinrectangle001.csproj", "{932E4148-ADF1-4579-9D74-358FA9C70247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pointincludeinrectangle001", "pointincludeinrectangle001\pointincludeinrectangle001.csproj", "{932E4148-ADF1-4579-9D74-358FA9C70247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listofhonorstudent001", "listofhonorstudent001\listofhonorstudent001.csproj", "{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listofhonorstudent001", "listofhonorstudent001\listofhonorstudent001.csproj", "{030502AA-AACA-42B5-9D4B-6F561EF2D2E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listofhonorstudent002", "listofhonorstudent002\listofhonorstudent002.csproj", "{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listofhonorstudent002", "listofhonorstudent002\listofhonorstudent002.csproj", "{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secondlargestvalue001", "secondlargestvalue001\secondlargestvalue001.csproj", "{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kthargestvalue001", "kthargestvalue001\kthargestvalue001.csproj", "{722DF29A-9E80-4B63-82D0-E6FA94B04B68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -903,6 +907,14 @@ Global
 		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722DF29A-9E80-4B63-82D0-E6FA94B04B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722DF29A-9E80-4B63-82D0-E6FA94B04B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722DF29A-9E80-4B63-82D0-E6FA94B04B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722DF29A-9E80-4B63-82D0-E6FA94B04B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1064,6 +1076,8 @@ Global
 		{932E4148-ADF1-4579-9D74-358FA9C70247} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 		{030502AA-AACA-42B5-9D4B-6F561EF2D2E0} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 		{E6891B5A-7C5B-4656-BA2F-D711A1E7401C} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
+		{722DF29A-9E80-4B63-82D0-E6FA94B04B68} = {A34EF4B7-B10A-4DB3-A05A-17AB8859F521}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
