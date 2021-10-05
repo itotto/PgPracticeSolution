@@ -333,17 +333,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listofhonorstudent001", "li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listofhonorstudent002", "listofhonorstudent002\listofhonorstudent002.csproj", "{E6891B5A-7C5B-4656-BA2F-D711A1E7401C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secondlargestvalue001", "secondlargestvalue001\secondlargestvalue001.csproj", "{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "secondlargestvalue001", "secondlargestvalue001\secondlargestvalue001.csproj", "{E9F776E2-A6E7-4F96-9F4A-EAE7880FBBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kthargestvalue001", "kthargestvalue001\kthargestvalue001.csproj", "{722DF29A-9E80-4B63-82D0-E6FA94B04B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kthargestvalue001", "kthargestvalue001\kthargestvalue001.csproj", "{722DF29A-9E80-4B63-82D0-E6FA94B04B68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrimeNumber", "PrimeNumber", "{40532C47-957A-4FD3-8C1C-A02C4791DB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grothendieckprime001", "grothendieckprime001\grothendieckprime001.csproj", "{DE6FF322-6961-478C-8123-E284C15F8105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grothendieckprime001", "grothendieckprime001\grothendieckprime001.csproj", "{DE6FF322-6961-478C-8123-E284C15F8105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primalitytest001", "primalitytest001\primalitytest001.csproj", "{B8FCC538-78BE-4D3D-B1FB-4FB91F5DCBC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primalitytest001", "primalitytest001\primalitytest001.csproj", "{B8FCC538-78BE-4D3D-B1FB-4FB91F5DCBC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primalitytest002", "primalitytest002\primalitytest002.csproj", "{86751200-69C6-4C32-B040-15310A0850EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primalitytest002", "primalitytest002\primalitytest002.csproj", "{86751200-69C6-4C32-B040-15310A0850EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eratosthenessieve001", "eratosthenessieve001\eratosthenessieve001.csproj", "{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -935,6 +937,10 @@ Global
 		{86751200-69C6-4C32-B040-15310A0850EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86751200-69C6-4C32-B040-15310A0850EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86751200-69C6-4C32-B040-15310A0850EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1101,6 +1107,7 @@ Global
 		{DE6FF322-6961-478C-8123-E284C15F8105} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{B8FCC538-78BE-4D3D-B1FB-4FB91F5DCBC5} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{86751200-69C6-4C32-B040-15310A0850EA} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
+		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
