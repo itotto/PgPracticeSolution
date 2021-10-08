@@ -345,9 +345,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primalitytest001", "primali
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primalitytest002", "primalitytest002\primalitytest002.csproj", "{86751200-69C6-4C32-B040-15310A0850EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eratosthenessieve001", "eratosthenessieve001\eratosthenessieve001.csproj", "{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eratosthenessieve001", "eratosthenessieve001\eratosthenessieve001.csproj", "{0FEEA3C6-6C16-408B-84B5-D2EA3C018499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fermattest001", "fermattest001\fermattest001.csproj", "{8BC66E1E-5A13-432F-957E-A86B2387D369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fermattest001", "fermattest001\fermattest001.csproj", "{8BC66E1E-5A13-432F-957E-A86B2387D369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primenumbercollege001", "primenumbercollege001\primenumbercollege001.csproj", "{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -947,6 +949,10 @@ Global
 		{8BC66E1E-5A13-432F-957E-A86B2387D369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC66E1E-5A13-432F-957E-A86B2387D369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC66E1E-5A13-432F-957E-A86B2387D369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1115,6 +1121,7 @@ Global
 		{86751200-69C6-4C32-B040-15310A0850EA} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{0FEEA3C6-6C16-408B-84B5-D2EA3C018499} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{8BC66E1E-5A13-432F-957E-A86B2387D369} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
+		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
