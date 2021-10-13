@@ -12,19 +12,7 @@ namespace divisor001 {
 
             var answer = new Dictionary<int, int>();
 
-            while (true) {
-                if (n % 2 == 0) {
-                    n /= 2;
-                    if (answer.ContainsKey(2)) {
-                        answer[2]++;
-                    } else {
-                        answer.Add(2, 1);
-                    }
-                } else break;
-            }
-
-
-            var div = 3;
+            var div = 2;
             while (n > 1) {
                 if (n % div == 0) {
                     n /= div;
@@ -34,12 +22,11 @@ namespace divisor001 {
                         answer.Add(div, 1);
                     }
                 } else {
-                    div += 2;
+                    div += div == 2 ? 1 :2;
                 }
             }
 
             var cnt = 1;
-
             foreach (var k in answer.Values) {
                 cnt *= (k + 1);
             }
