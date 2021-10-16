@@ -20,12 +20,10 @@ namespace primenumbercollege001 {
 
             var cnt = Convert.ToInt32(Console.ReadLine());
 
-            var maxNum = 0;
             // 受験番号を入力
             var numbers = new List<int>(cnt);
             for (var i = 0; i < cnt; i++) {
                 var num = Convert.ToInt32(Console.ReadLine());
-                if (num > maxNum) maxNum = num;
                 numbers.Add(num);
             }
 
