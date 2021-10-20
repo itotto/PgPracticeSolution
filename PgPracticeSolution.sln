@@ -353,7 +353,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primenumbercollege001", "pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primefactorization001", "primefactorization001\primefactorization001.csproj", "{A2A07D62-C053-4FAB-8961-6CD5B3B15FF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "divisor001", "divisor001\divisor001.csproj", "{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "divisor001", "divisor001\divisor001.csproj", "{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "greatestcommondivisor001", "greatestcommondivisor001\greatestcommondivisor001.csproj", "{DF30BB2A-8736-4EB1-9539-7076F0B739F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -965,6 +967,10 @@ Global
 		{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF30BB2A-8736-4EB1-9539-7076F0B739F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF30BB2A-8736-4EB1-9539-7076F0B739F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF30BB2A-8736-4EB1-9539-7076F0B739F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF30BB2A-8736-4EB1-9539-7076F0B739F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1136,6 +1142,7 @@ Global
 		{6264ADAB-8FA3-4DAC-86E0-D2D8F96BEB53} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{A2A07D62-C053-4FAB-8961-6CD5B3B15FF7} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 		{22FBC7D0-3C5F-4DF8-AC50-8AE3DC77A4D8} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
+		{DF30BB2A-8736-4EB1-9539-7076F0B739F4} = {40532C47-957A-4FD3-8C1C-A02C4791DB1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
