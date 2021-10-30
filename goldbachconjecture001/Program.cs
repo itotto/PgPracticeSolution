@@ -17,7 +17,6 @@ namespace goldbachconjecture001 {
                 if (IsPrime(i)) primes.Add(i, true);
             }
 
-
             var v1 = -1;
             var v2 = -1;
             long v_multiple = -1;
@@ -26,7 +25,6 @@ namespace goldbachconjecture001 {
                 var d = n - p.Key;
                 if (primes.ContainsKey(d)) {
                     long m = d * (long)p.Key;
-                    Console.WriteLine($"{p.Key}　{d}　{m}");
                     if (m > v_multiple) {
                         v1 = p.Key;
                         v2 = d;
@@ -34,7 +32,6 @@ namespace goldbachconjecture001 {
                     }
                 }
             }
-
 
             // 結果の表示
             Console.WriteLine($"{v1}\r\n{v2}");
