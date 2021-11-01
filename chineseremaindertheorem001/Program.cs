@@ -15,7 +15,7 @@ namespace chineseremaindertheorem001 {
 
             long z = -1;
 
-            for (long i = 0; i < m1 * m2; i++) {
+            for (long i = b1; i < m1 * m2; i += m1) {
                 if (i % m1 == b1 && i % m2 == b2) {
                     z = i;
                     break;
