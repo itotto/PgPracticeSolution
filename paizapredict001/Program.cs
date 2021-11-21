@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace paizapredict001 {
     /// <summary>
@@ -12,16 +13,17 @@ namespace paizapredict001 {
 
             // 2以上10^8以下の素数を求める
             // 素数
-            var primes = new Dictionary<int, bool> { { 2, true }, { 3, true }, };
-            for (var i = 5; i < MAXNUM; i += 2) {
-                if (IsPrime(i)) primes.Add(i, true);
-            }
+            var primes = GetPrimes(MAXNUM);
+            primes.Sort((x, y) => x - y);  
 
 
             var targetNumbers = new List<int>();
+            for (var i = 2; i <= 9999; i++) {
+                var x2 = i * i;
+            }
 
             // 結果の表示
-            if (targetNumbers.Count == 0) {
+            if (targetNumbers.Count > 0) {
                 targetNumbers.Sort((x, y) => x - y);
                 targetNumbers.ForEach(t => Console.WriteLine(t));
             } else {
@@ -30,12 +32,27 @@ namespace paizapredict001 {
             Console.ReadLine();
         }
 
-        static bool IsPrime(int n) {
-            var limit = (long)Math.Sqrt(n) + 1;
-            for (var i = 3; i < limit; i += 2) {
-                if (n % i == 0) return false;
+        //static Dictionary<int, bool> GetPrimes(int n) {
+        static List<int> GetPrimes(int n) {
+            //var result = new bool[n + 1];
+            var result = new Dictionary<int,bool>(n + 1);
+            result[0] = false;
+            result[1] = false;
+            for (var i = 2; i <= n; i++) result[i] = true;
+
+            for (var i = 2; i <= n; i++) {
+                if (result[i]) {
+                    var idx = 2;
+                    while (true) {
+                        var x = i * idx;
+                        if (x > n) break;
+                        result[x] = false;
+                        idx++;
+                    }
+                }
             }
-            return true;
+            return result.Where(x => x.Value).Select(x => x.Key).ToList();
         }
+
     }
 }
