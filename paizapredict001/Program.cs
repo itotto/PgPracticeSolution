@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace paizapredict001 {
     /// <summary>
@@ -9,17 +8,17 @@ namespace paizapredict001 {
     /// <remarks>https://paiza.jp/works/mondai/prime_number_primer/prime_number_primer__paiza_conjecture/edit?language_uid=c-sharp</remarks>
     class Program {
         static void Main() {
-            const int MAXNUM = 100000000;
+            // 処理する最大値(10000 - 1)
+            const int MAXNUM = 9999;
 
-            // 2以上10^8以下の素数を求める
-            // 素数
-            var primes = GetPrimes(MAXNUM);
-            primes.Sort((x, y) => x - y);  
-
+            // 偶数の素数(1つしかない)
+            const int EVEN_PRIME = 2;
 
             var targetNumbers = new List<int>();
-            for (var i = 2; i <= 9999; i++) {
+            // 3以上でかつ奇数のみが対象(偶数はgoldbachで証明済みのため除外)
+            for (var i = 3; i <= MAXNUM; i += 2) {
                 var x2 = i * i;
+                if (!IsPrime(x2 - EVEN_PRIME)) targetNumbers.Add(x2);
             }
 
             // 結果の表示
@@ -32,27 +31,17 @@ namespace paizapredict001 {
             Console.ReadLine();
         }
 
-        //static Dictionary<int, bool> GetPrimes(int n) {
-        static List<int> GetPrimes(int n) {
-            //var result = new bool[n + 1];
-            var result = new Dictionary<int,bool>(n + 1);
-            result[0] = false;
-            result[1] = false;
-            for (var i = 2; i <= n; i++) result[i] = true;
-
-            for (var i = 2; i <= n; i++) {
-                if (result[i]) {
-                    var idx = 2;
-                    while (true) {
-                        var x = i * idx;
-                        if (x > n) break;
-                        result[x] = false;
-                        idx++;
-                    }
-                }
+        /// <summary>
+        /// 素数かどうか判定
+        /// </summary>
+        /// <param name="n">判定対象の数(3以上)</param>
+        /// <returns></returns>
+        static bool IsPrime(int n) {
+            var limit = (long)Math.Sqrt(n) + 1;
+            for (var i = 3; i < limit; i += 2) {
+                if (n % i == 0) return false;
             }
-            return result.Where(x => x.Value).Select(x => x.Key).ToList();
+            return true;
         }
-
     }
 }
