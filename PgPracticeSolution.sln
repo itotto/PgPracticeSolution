@@ -399,6 +399,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appearancerate002", "appear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appearancerate003", "appearancerate003\appearancerate003.csproj", "{6A65714C-E6E7-49E9-A09C-5DB99796CE07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pricecalculation001", "pricecalculation001\pricecalculation001.csproj", "{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1089,6 +1091,10 @@ Global
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1280,6 +1286,7 @@ Global
 		{5B83D4C5-A919-4C38-90C9-2E4E2C83467F} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{611C0FCC-E684-4F9E-867D-63657AAA88E0} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
+		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
