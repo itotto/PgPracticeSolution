@@ -403,6 +403,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pricecalculation001", "pric
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productsearch001", "productsearch001\productsearch001.csproj", "{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchingforaset001", "searchingforaset001\searchingforaset001.csproj", "{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1101,6 +1103,10 @@ Global
 		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1294,6 +1300,7 @@ Global
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
+		{A1846380-A8F7-44A8-AEF2-0F4A74C6B04E} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
