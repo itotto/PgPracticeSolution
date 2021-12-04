@@ -397,9 +397,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appearancerate001", "appear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appearancerate002", "appearancerate002\appearancerate002.csproj", "{611C0FCC-E684-4F9E-867D-63657AAA88E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appearancerate003", "appearancerate003\appearancerate003.csproj", "{6A65714C-E6E7-49E9-A09C-5DB99796CE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appearancerate003", "appearancerate003\appearancerate003.csproj", "{6A65714C-E6E7-49E9-A09C-5DB99796CE07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pricecalculation001", "pricecalculation001\pricecalculation001.csproj", "{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pricecalculation001", "pricecalculation001\pricecalculation001.csproj", "{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productsearch001", "productsearch001\productsearch001.csproj", "{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1095,6 +1097,10 @@ Global
 		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1287,6 +1293,7 @@ Global
 		{611C0FCC-E684-4F9E-867D-63657AAA88E0} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{6A65714C-E6E7-49E9-A09C-5DB99796CE07} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 		{C1CC948C-0B1C-4061-ABDA-D361EA33EA42} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
+		{E7FA40EC-1E9D-40D6-9A06-4B4BDFCA6F99} = {F64DB61A-7E1B-4BE7-B74F-3F14A4E06866}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
