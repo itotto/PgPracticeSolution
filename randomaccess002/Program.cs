@@ -5,9 +5,12 @@
 
 _ = Convert.ToInt32(Console.ReadLine());
 var a = Console.ReadLine()?.Split(' ');
+if (a == null) return;
 
 _ = Convert.ToInt32(Console.ReadLine());
-foreach (var b in Console.ReadLine()?.Split(' ')) {
+var line = Console.ReadLine();
+if (line == null) return;
+foreach (var b in line.Split(' ')) {
     Console.WriteLine(a[Convert.ToInt32(b) - 1]);
 }
 
