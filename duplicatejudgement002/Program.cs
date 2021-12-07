@@ -1,8 +1,4 @@
-﻿
-
-
-using System.Collections.Generic;
-/// <summary>
+﻿/// <summary>
 /// 重複の判定 2
 /// </summary>
 /// <remarks>https://paiza.jp/works/mondai/data_structure/data_structure__set_step4/edit?language_uid=c-sharp</remarks>
