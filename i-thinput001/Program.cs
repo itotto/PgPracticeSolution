@@ -7,4 +7,4 @@ var s = Console.ReadLine();
 var i = Convert.ToInt32(Console.ReadLine()) - 1;
 
 // 結果の表示
-Console.WriteLine(s[i]);
+Console.WriteLine(s?[i]);
