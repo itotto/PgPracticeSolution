@@ -429,9 +429,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "searchstring001", "searchst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "concatstring001", "concatstring001\concatstring001.csproj", "{8394CC73-FC1E-4CE7-A701-C27FFDD0BF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apartofstring001", "apartofstring001\apartofstring001.csproj", "{473D7C25-0B5B-4C40-B840-B3F75CBEB3CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apartofstring001", "apartofstring001\apartofstring001.csproj", "{473D7C25-0B5B-4C40-B840-B3F75CBEB3CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insertstring001", "insertstring001\insertstring001.csproj", "{2682DFEF-21DE-4F29-AAE6-585352EB3509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "insertstring001", "insertstring001\insertstring001.csproj", "{2682DFEF-21DE-4F29-AAE6-585352EB3509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "changestring001", "changestring001\changestring001.csproj", "{59DF9117-0230-44D3-8D4B-CA626E958BED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1187,6 +1189,10 @@ Global
 		{2682DFEF-21DE-4F29-AAE6-585352EB3509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2682DFEF-21DE-4F29-AAE6-585352EB3509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2682DFEF-21DE-4F29-AAE6-585352EB3509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DF9117-0230-44D3-8D4B-CA626E958BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DF9117-0230-44D3-8D4B-CA626E958BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DF9117-0230-44D3-8D4B-CA626E958BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DF9117-0230-44D3-8D4B-CA626E958BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1394,6 +1400,7 @@ Global
 		{8394CC73-FC1E-4CE7-A701-C27FFDD0BF90} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{473D7C25-0B5B-4C40-B840-B3F75CBEB3CD} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{2682DFEF-21DE-4F29-AAE6-585352EB3509} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
+		{59DF9117-0230-44D3-8D4B-CA626E958BED} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
