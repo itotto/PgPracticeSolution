@@ -6,5 +6,22 @@ var s = Console.ReadLine();
 var t = Console.ReadLine();
 if (string.IsNullOrEmpty(s) || string.IsNullOrEmpty(t)) return;
 
+var bFound = false;
+for (var i = 0; i < s.Length; i++) {
+    if (s[i] == t[0]) {
+        var isMatch = true;
+        for (var j = 1; j < t.Length; j++) {
+            if (s[i + j] != t[j]) {
+                isMatch = false;
+                break;
+            }
+        }
+        if (isMatch) {
+            bFound = true;
+            break;
+        }
+    }
+}
+
 // 結果の表示
-Console.WriteLine(s.IndexOf(t) >= 0 ? "YES" : "NO");
+Console.WriteLine(bFound ? "YES" : "NO");
