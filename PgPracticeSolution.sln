@@ -455,6 +455,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "splitstring002", "splitstri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convertdatetime001", "convertdatetime001\convertdatetime001.csproj", "{90642C9F-1CDB-4B53-B21B-98911EEA5EBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convertdatetime002", "convertdatetime002\convertdatetime002.csproj", "{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1253,6 +1255,10 @@ Global
 		{90642C9F-1CDB-4B53-B21B-98911EEA5EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90642C9F-1CDB-4B53-B21B-98911EEA5EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90642C9F-1CDB-4B53-B21B-98911EEA5EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1471,6 +1477,7 @@ Global
 		{B25C82B3-E330-493E-B5EF-81CCD3C86140} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{AF4AA51D-765C-4175-B6D3-DE28FFEFF98E} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{90642C9F-1CDB-4B53-B21B-98911EEA5EBD} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
+		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
