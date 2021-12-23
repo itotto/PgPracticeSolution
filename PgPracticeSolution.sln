@@ -459,6 +459,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "convertdatetime002", "conve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "isnumeric001", "isnumeric001\isnumeric001.csproj", "{A04B5F0C-699D-4262-A719-607D7971C343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "removeduplicate001", "removeduplicate001\removeduplicate001.csproj", "{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1265,6 +1267,10 @@ Global
 		{A04B5F0C-699D-4262-A719-607D7971C343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A04B5F0C-699D-4262-A719-607D7971C343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A04B5F0C-699D-4262-A719-607D7971C343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1485,6 +1491,7 @@ Global
 		{90642C9F-1CDB-4B53-B21B-98911EEA5EBD} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{B80820F6-BFA2-438C-B96B-6FC8BD6E10D2} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{A04B5F0C-699D-4262-A719-607D7971C343} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
+		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
