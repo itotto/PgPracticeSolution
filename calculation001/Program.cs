@@ -6,10 +6,10 @@
 var s = Console.ReadLine();
 if (string.IsNullOrEmpty(s)) return;
 
-var answer = Convert.ToInt32(s[0] - '0');
+var answer = Convert.ToInt32(s[0].ToString());
 for (int i = 1; i < s.Length - 1; i += 2) {
-    if (s[i] == '+') answer += Convert.ToInt32(s[i + 1] - '0');
-    else answer -= Convert.ToInt32(s[i + 1] - '0');
+    if (s[i] == '+') answer += Convert.ToInt32(s[i + 1].ToString());
+    else answer -= Convert.ToInt32(s[i + 1].ToString());
 }
 
 // 結果の表示
