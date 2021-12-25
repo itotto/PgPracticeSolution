@@ -461,9 +461,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "isnumeric001", "isnumeric00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "removeduplicate001", "removeduplicate001\removeduplicate001.csproj", "{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generatepassword001", "generatepassword001\generatepassword001.csproj", "{B03B0EC0-6980-4C95-A387-CC3D927A36B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "generatepassword001", "generatepassword001\generatepassword001.csproj", "{B03B0EC0-6980-4C95-A387-CC3D927A36B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notationcorrection001", "notationcorrection001\notationcorrection001.csproj", "{F14E6CC7-E4FD-4467-9E59-2992CD5F5573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "notationcorrection001", "notationcorrection001\notationcorrection001.csproj", "{F14E6CC7-E4FD-4467-9E59-2992CD5F5573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculation001", "calculation001\calculation001.csproj", "{E119B8D5-206E-4264-A9A4-62B1FD9C7430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1283,6 +1285,10 @@ Global
 		{F14E6CC7-E4FD-4467-9E59-2992CD5F5573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14E6CC7-E4FD-4467-9E59-2992CD5F5573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14E6CC7-E4FD-4467-9E59-2992CD5F5573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E119B8D5-206E-4264-A9A4-62B1FD9C7430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E119B8D5-206E-4264-A9A4-62B1FD9C7430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E119B8D5-206E-4264-A9A4-62B1FD9C7430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E119B8D5-206E-4264-A9A4-62B1FD9C7430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1506,6 +1512,7 @@ Global
 		{25B3A54E-D4D9-4C40-8211-DEEF7FF6F705} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{B03B0EC0-6980-4C95-A387-CC3D927A36B2} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 		{F14E6CC7-E4FD-4467-9E59-2992CD5F5573} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
+		{E119B8D5-206E-4264-A9A4-62B1FD9C7430} = {12E95AB3-DA94-4E32-8187-3A43E35F87BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
