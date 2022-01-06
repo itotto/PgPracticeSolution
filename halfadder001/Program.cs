@@ -10,4 +10,4 @@ var a = v[0] == "1";
 var b = v[1] == "1";
 
 // 結果の表示
-Console.WriteLine($"{(a && b ? "1" : "0")} {(a != b ? "1" : "0")}");
+Console.WriteLine($"{(a && b ? "1" : "0")} {(a ^ b ? "1" : "0")}");
