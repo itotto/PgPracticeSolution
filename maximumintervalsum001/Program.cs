@@ -17,7 +17,7 @@ var data = new int[dataStrs.Length];
 for (int i = 0; i < dataStrs.Length; i++)
     data[i] = Convert.ToInt32(dataStrs[i]);
 
-var max = -1;
+var max = int.MinValue;
 var pos = -1;
 var sumlist = new List<int>(n - x + 1);
 
@@ -30,7 +30,7 @@ for (var i = 0; i <= n - x; i++) {
             sum += data[j];
         }
     } else {
-        sum = sumlist[i - 1] - data[i - 1] + data[i + 1];
+        sum = sumlist[i - 1] - data[i - 1] + data[i + x - 1];
     }
     sumlist.Add(sum);
     if (max < sum) {
