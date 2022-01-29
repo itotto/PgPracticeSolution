@@ -1,7 +1,4 @@
-﻿
-
-using System.Collections.Generic;
-/// <summary>
+﻿/// <summary>
 /// 箱とボール
 /// </summary>
 /// <remarks>https://paiza.jp/works/mondai/stack_queue/stack_queue__practice_step6/edit?language_uid=c-sharp</remarks>
