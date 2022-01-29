@@ -557,7 +557,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reversepolishnotation001", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parentheses001", "parentheses001\parentheses001.csproj", "{B48B9A34-10DE-4984-BB3A-AF8DB12E9C88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "escalator001", "escalator001\escalator001.csproj", "{C70E7690-813D-40EF-8697-0CA1425B726D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "escalator001", "escalator001\escalator001.csproj", "{C70E7690-813D-40EF-8697-0CA1425B726D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boxandballs001", "boxandballs001\boxandballs001.csproj", "{F5CCDF5F-151A-47FB-AC94-D859F565B6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1553,6 +1555,10 @@ Global
 		{C70E7690-813D-40EF-8697-0CA1425B726D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70E7690-813D-40EF-8697-0CA1425B726D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70E7690-813D-40EF-8697-0CA1425B726D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CCDF5F-151A-47FB-AC94-D859F565B6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CCDF5F-151A-47FB-AC94-D859F565B6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CCDF5F-151A-47FB-AC94-D859F565B6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CCDF5F-151A-47FB-AC94-D859F565B6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1820,6 +1826,7 @@ Global
 		{9FF586B4-28BF-4ADF-9F0D-A6118E234CC7} = {A2F50CE2-7A64-48C3-BE78-711A5F367F75}
 		{B48B9A34-10DE-4984-BB3A-AF8DB12E9C88} = {A2F50CE2-7A64-48C3-BE78-711A5F367F75}
 		{C70E7690-813D-40EF-8697-0CA1425B726D} = {A2F50CE2-7A64-48C3-BE78-711A5F367F75}
+		{F5CCDF5F-151A-47FB-AC94-D859F565B6BE} = {A2F50CE2-7A64-48C3-BE78-711A5F367F75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
