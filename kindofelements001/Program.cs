@@ -1,10 +1,8 @@
-﻿
-
-using System.Collections.Generic;
-/// <summary>
+﻿/// <summary>
 /// 要素の種類数
 /// </summary>
 /// <remarks>https://paiza.jp/works/mondai/array_utilization_primer/array_utilization_primer__kind/edit?language_uid=c-sharp</remarks>
+
 var n = Convert.ToInt32(Console.ReadLine());
 
 var cnt = 0;
