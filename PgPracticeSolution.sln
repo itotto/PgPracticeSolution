@@ -575,9 +575,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adjacencylist_undirectedgra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "firstposition001", "firstposition001\firstposition001.csproj", "{5494A1D5-53C3-4323-99A2-7E45A66B20EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kindofelements001", "kindofelements001\kindofelements001.csproj", "{0DFF0EA0-F876-4C1C-82D2-FD8059AFDA3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kindofelements001", "kindofelements001\kindofelements001.csproj", "{0DFF0EA0-F876-4C1C-82D2-FD8059AFDA3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operation2allelements001", "operation2allelements001\operation2allelements001.csproj", "{A4290153-450C-4D1A-B0F0-CC3E22A40C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operation2allelements001", "operation2allelements001\operation2allelements001.csproj", "{A4290153-450C-4D1A-B0F0-CC3E22A40C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reversearray001", "reversearray001\reversearray001.csproj", "{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1609,6 +1611,10 @@ Global
 		{A4290153-450C-4D1A-B0F0-CC3E22A40C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4290153-450C-4D1A-B0F0-CC3E22A40C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4290153-450C-4D1A-B0F0-CC3E22A40C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1885,6 +1891,7 @@ Global
 		{5494A1D5-53C3-4323-99A2-7E45A66B20EC} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{0DFF0EA0-F876-4C1C-82D2-FD8059AFDA3A} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{A4290153-450C-4D1A-B0F0-CC3E22A40C7B} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
