@@ -583,7 +583,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reversearray001", "reversea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "swapvariable001", "swapvariable001\swapvariable001.csproj", "{D1E61FA7-DA4F-432A-896B-D17CCA02D315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swaptargetelement001", "swaptargetelement001\swaptargetelement001.csproj", "{AB0E7560-5EB5-4540-8338-070988638801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "swaptargetelement001", "swaptargetelement001\swaptargetelement001.csproj", "{AB0E7560-5EB5-4540-8338-070988638801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addelement001", "addelement001\addelement001.csproj", "{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1627,6 +1629,10 @@ Global
 		{AB0E7560-5EB5-4540-8338-070988638801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0E7560-5EB5-4540-8338-070988638801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0E7560-5EB5-4540-8338-070988638801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1906,6 +1912,7 @@ Global
 		{CFCF5E9C-F255-471D-80C6-08FA5B4D54FE} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{D1E61FA7-DA4F-432A-896B-D17CCA02D315} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{AB0E7560-5EB5-4540-8338-070988638801} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
