@@ -1,7 +1,4 @@
-﻿
-
-using System.Collections.Generic;
-/// <summary>
+﻿/// <summary>
 /// 指定要素の入れ替え
 /// </summary>
 /// <remarks></remarks>
