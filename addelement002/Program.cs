@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// 指定位置への要素の追加
 /// </summary>
-/// <remarks></remarks>
+/// <remarks>https://paiza.jp/works/mondai/array_utilization_primer/array_utilization_primer__insert/edit?language_uid=c-sharp</remarks>
 
 var n = Convert.ToInt32(Console.ReadLine());
 
