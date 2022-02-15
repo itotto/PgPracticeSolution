@@ -587,13 +587,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "swaptargetelement001", "swa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "addelement001", "addelement001\addelement001.csproj", "{5E2A7363-9374-4B20-9EC4-F2C31EE7E9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addelement002", "addelement002\addelement002.csproj", "{74A72A40-6A69-4249-ABA5-8C4B962C57C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "addelement002", "addelement002\addelement002.csproj", "{74A72A40-6A69-4249-ABA5-8C4B962C57C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deleteelement001", "deleteelement001\deleteelement001.csproj", "{65D08C44-CE8C-489A-8934-8E05F315207F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deleteelement001", "deleteelement001\deleteelement001.csproj", "{65D08C44-CE8C-489A-8934-8E05F315207F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplicationtable001", "multiplicationtable001\multiplicationtable001.csproj", "{7C8E17A2-19A7-4DB7-8024-F796F7219253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multiplicationtable001", "multiplicationtable001\multiplicationtable001.csproj", "{7C8E17A2-19A7-4DB7-8024-F796F7219253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "useallelement001", "useallelement001\useallelement001.csproj", "{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "useallelement001", "useallelement001\useallelement001.csproj", "{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "changearraysize001", "changearraysize001\changearraysize001.csproj", "{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "removeduplicateelement001", "removeduplicateelement001\removeduplicateelement001.csproj", "{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1657,6 +1661,14 @@ Global
 		{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1941,6 +1953,8 @@ Global
 		{65D08C44-CE8C-489A-8934-8E05F315207F} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{7C8E17A2-19A7-4DB7-8024-F796F7219253} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{20E70A77-A5C9-43E1-ABA6-521BB598DAC4} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
