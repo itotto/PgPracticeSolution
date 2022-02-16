@@ -595,9 +595,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multiplicationtable001", "m
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "useallelement001", "useallelement001\useallelement001.csproj", "{20E70A77-A5C9-43E1-ABA6-521BB598DAC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "changearraysize001", "changearraysize001\changearraysize001.csproj", "{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "changearraysize001", "changearraysize001\changearraysize001.csproj", "{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "removeduplicateelement001", "removeduplicateelement001\removeduplicateelement001.csproj", "{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "removeduplicateelement001", "removeduplicateelement001\removeduplicateelement001.csproj", "{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "makenewarray001", "makenewarray001\makenewarray001.csproj", "{2B2899D5-E73A-4531-AF27-309E36B4BE89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1669,6 +1671,10 @@ Global
 		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2899D5-E73A-4531-AF27-309E36B4BE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2899D5-E73A-4531-AF27-309E36B4BE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2899D5-E73A-4531-AF27-309E36B4BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2899D5-E73A-4531-AF27-309E36B4BE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1955,6 +1961,7 @@ Global
 		{20E70A77-A5C9-43E1-ABA6-521BB598DAC4} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{8EEC544E-9FCC-4FCF-9F43-7826A9F0DD7A} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{5CAFA1A7-5A0E-4997-A0CC-FBB227AA4D99} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{2B2899D5-E73A-4531-AF27-309E36B4BE89} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
