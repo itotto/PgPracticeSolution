@@ -605,7 +605,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inclinedpoints001", "inclin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unofficialdicision001", "unofficialdicision001\unofficialdicision001.csproj", "{9D932DA8-6CB0-4CF0-831E-CB0031B625B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue001", "queue001\queue001.csproj", "{5EC263AE-7E32-45FF-A27B-594D80623AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue001", "queue001\queue001.csproj", "{5EC263AE-7E32-45FF-A27B-594D80623AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threeleggedrace001", "threeleggedrace001\threeleggedrace001.csproj", "{E7B27602-C19E-4880-8961-5289263D738F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1693,6 +1695,10 @@ Global
 		{5EC263AE-7E32-45FF-A27B-594D80623AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC263AE-7E32-45FF-A27B-594D80623AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC263AE-7E32-45FF-A27B-594D80623AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B27602-C19E-4880-8961-5289263D738F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B27602-C19E-4880-8961-5289263D738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B27602-C19E-4880-8961-5289263D738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B27602-C19E-4880-8961-5289263D738F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1983,6 +1989,7 @@ Global
 		{2A9DCE8A-16F9-4660-9191-401F6C789EE2} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{9D932DA8-6CB0-4CF0-831E-CB0031B625B3} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 		{5EC263AE-7E32-45FF-A27B-594D80623AB9} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
+		{E7B27602-C19E-4880-8961-5289263D738F} = {E0299223-B1ED-44E2-8AFD-F0E78E51E7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
