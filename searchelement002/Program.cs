@@ -20,13 +20,27 @@ Array.Sort(data);
 var result = new StringBuilder();
 
 for (int i = 0; i < q; i++) {
-    var k = Convert.ToInt32(Console.ReadLine());
+    var targetVal = Convert.ToInt32(Console.ReadLine());
     var r = false;
-    for (var j = 0; j < data.Length; j++) {
-        var x = data[j];
-        if (x >= k) {
-            r = x == k;
-            break;
+
+    var start = 0;
+    var end = data.Length - 1;
+
+    if (data[start] == targetVal ||
+        data[end] == targetVal) {
+        r = true;
+    } else {
+        while (true) {
+            var pos = (end + start) / 2;
+            var arrayVal = data[pos];
+            if (arrayVal == targetVal) {
+                r = true;
+                break;
+            } else {
+                if (arrayVal > targetVal) end = pos - 1;
+                else start = pos + 1;
+            }
+            if (start > end) break;
         }
     }
     result.AppendLine($"{(r ? "YES" : "NO")}");
