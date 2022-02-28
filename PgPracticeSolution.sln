@@ -619,9 +619,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueryMenu", "QueryMenu", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "addelement003", "addelement003\addelement003.csproj", "{D2699089-95D6-4CE0-91B5-ECF1ADBA5F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchelement001", "searchelement001\searchelement001.csproj", "{B6ADC05E-4879-406F-BA5C-C4627440B53A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "searchelement001", "searchelement001\searchelement001.csproj", "{B6ADC05E-4879-406F-BA5C-C4627440B53A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchelement002", "searchelement002\searchelement002.csproj", "{55F3E1D4-BE2C-49A1-96B0-61DE9F077992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "searchelement002", "searchelement002\searchelement002.csproj", "{55F3E1D4-BE2C-49A1-96B0-61DE9F077992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deletetopelement001", "deletetopelement001\deletetopelement001.csproj", "{9BCAE75C-9EA2-4410-B476-DE85F07835B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1737,6 +1739,10 @@ Global
 		{55F3E1D4-BE2C-49A1-96B0-61DE9F077992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F3E1D4-BE2C-49A1-96B0-61DE9F077992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F3E1D4-BE2C-49A1-96B0-61DE9F077992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCAE75C-9EA2-4410-B476-DE85F07835B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCAE75C-9EA2-4410-B476-DE85F07835B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCAE75C-9EA2-4410-B476-DE85F07835B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCAE75C-9EA2-4410-B476-DE85F07835B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2034,6 +2040,7 @@ Global
 		{D2699089-95D6-4CE0-91B5-ECF1ADBA5F8D} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 		{B6ADC05E-4879-406F-BA5C-C4627440B53A} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 		{55F3E1D4-BE2C-49A1-96B0-61DE9F077992} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
+		{9BCAE75C-9EA2-4410-B476-DE85F07835B5} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
