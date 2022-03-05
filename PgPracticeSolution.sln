@@ -631,7 +631,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "associativearray001", "asso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "associativearray002", "associativearray002\associativearray002.csproj", "{7D76180D-B961-4EEA-88A6-D1B1CBA7B8E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortandsearch001", "sortandsearch001\sortandsearch001.csproj", "{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sortandsearch001", "sortandsearch001\sortandsearch001.csproj", "{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortandsearch002", "sortandsearch002\sortandsearch002.csproj", "{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1767,6 +1769,10 @@ Global
 		{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2069,6 +2075,7 @@ Global
 		{112232C2-120B-4641-83A7-A72014427731} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 		{7D76180D-B961-4EEA-88A6-D1B1CBA7B8E9} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 		{80E7EB67-84D3-44EF-A43E-5C0DC6A878B4} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
+		{0F216B19-F768-4125-A0BD-D5BBF3C5D7C1} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
