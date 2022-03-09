@@ -639,11 +639,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contest", "Contest", "{201B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numberofmembers001", "numberofmembers001\numberofmembers001.csproj", "{8A42C6BC-99E5-4803-A56C-D0D73CF15C0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resttime001", "resttime001\resttime001.csproj", "{0F66D0F6-3D02-4EF4-B9EA-58684576070D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "resttime001", "resttime001\resttime001.csproj", "{0F66D0F6-3D02-4EF4-B9EA-58684576070D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fueleconomy001", "fueleconomy001\fueleconomy001.csproj", "{1A04689B-A563-453F-AE0E-8F9C0D2560AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fueleconomy001", "fueleconomy001\fueleconomy001.csproj", "{1A04689B-A563-453F-AE0E-8F9C0D2560AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniformnumberorder001", "uniformnumberorder001\uniformnumberorder001.csproj", "{3F13BD1C-B639-4200-985D-F86637F9DF45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniformnumberorder001", "uniformnumberorder001\uniformnumberorder001.csproj", "{3F13BD1C-B639-4200-985D-F86637F9DF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idlegroup001", "idlegroup001\idlegroup001.csproj", "{A43C9526-5888-4E7B-8B88-73EB9DADB577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1799,6 +1801,10 @@ Global
 		{3F13BD1C-B639-4200-985D-F86637F9DF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F13BD1C-B639-4200-985D-F86637F9DF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F13BD1C-B639-4200-985D-F86637F9DF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43C9526-5888-4E7B-8B88-73EB9DADB577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43C9526-5888-4E7B-8B88-73EB9DADB577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43C9526-5888-4E7B-8B88-73EB9DADB577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43C9526-5888-4E7B-8B88-73EB9DADB577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2106,6 +2112,7 @@ Global
 		{0F66D0F6-3D02-4EF4-B9EA-58684576070D} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 		{1A04689B-A563-453F-AE0E-8F9C0D2560AA} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 		{3F13BD1C-B639-4200-985D-F86637F9DF45} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
+		{A43C9526-5888-4E7B-8B88-73EB9DADB577} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
