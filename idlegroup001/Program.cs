@@ -22,13 +22,15 @@ for (var i = 0; i < k; i++) {
     switch (query.Length) {
         case 1:
             members.Sort((x,y) => x.CompareTo(y));
-            members.ForEach(m => Console.WriteLine(m));
+            for (var j = 0; j < members.Count; j++) Console.WriteLine(members[j]);
             break;
         case 2:
-            if (query[0] == "join") members.Add(query[1]);
-            else if (query[0] == "leave") {
-                var idx = members.FindIndex(0, m => m == query[1]);
-                members.RemoveAt(idx);
+            var name = query[1];
+            if (query[0] == "join") {
+                members.Add(name);
+            } else if (query[0] == "leave") {
+                //members.RemoveAt(indexes[name]);
+                members.Remove(name);
             }
             break;
 
