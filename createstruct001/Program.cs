@@ -1,7 +1,4 @@
-﻿
-
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 /// <summary>
 /// 構造体の作成
 /// </summary>
