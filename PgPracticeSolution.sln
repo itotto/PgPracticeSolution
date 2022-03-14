@@ -649,7 +649,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "idlegroup001", "idlegroup00
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassAndStruct", "ClassAndStruct", "{A66942C5-8410-4CCC-8B14-3BE5157844A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createstruct001", "createstruct001\createstruct001.csproj", "{8DB62175-B2CD-42D5-94A4-36791F7C885D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "createstruct001", "createstruct001\createstruct001.csproj", "{8DB62175-B2CD-42D5-94A4-36791F7C885D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchstruct001", "searchstruct001\searchstruct001.csproj", "{CB55EC57-1AC2-4592-B1B1-845DD6D8592E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1813,6 +1815,10 @@ Global
 		{8DB62175-B2CD-42D5-94A4-36791F7C885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB62175-B2CD-42D5-94A4-36791F7C885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB62175-B2CD-42D5-94A4-36791F7C885D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB55EC57-1AC2-4592-B1B1-845DD6D8592E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB55EC57-1AC2-4592-B1B1-845DD6D8592E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB55EC57-1AC2-4592-B1B1-845DD6D8592E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB55EC57-1AC2-4592-B1B1-845DD6D8592E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2122,6 +2128,7 @@ Global
 		{3F13BD1C-B639-4200-985D-F86637F9DF45} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 		{A43C9526-5888-4E7B-8B88-73EB9DADB577} = {1CA8070D-6A71-4FFC-B76F-59ACBC3332A1}
 		{8DB62175-B2CD-42D5-94A4-36791F7C885D} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
+		{CB55EC57-1AC2-4592-B1B1-845DD6D8592E} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
