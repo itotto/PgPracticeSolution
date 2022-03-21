@@ -661,6 +661,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createclass001", "createcla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor001", "constructor001\constructor001.csproj", "{1EE68B92-A666-4E34-B4FD-73844B42C5E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modifyclassmenber001", "modifyclassmenber001\modifyclassmenber001.csproj", "{65BC030B-1465-4466-B66D-8C03F78E33FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1843,6 +1845,10 @@ Global
 		{1EE68B92-A666-4E34-B4FD-73844B42C5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE68B92-A666-4E34-B4FD-73844B42C5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE68B92-A666-4E34-B4FD-73844B42C5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BC030B-1465-4466-B66D-8C03F78E33FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BC030B-1465-4466-B66D-8C03F78E33FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BC030B-1465-4466-B66D-8C03F78E33FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BC030B-1465-4466-B66D-8C03F78E33FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2157,6 +2163,7 @@ Global
 		{F4C88949-388F-4755-A6DA-952DA45F74B6} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 		{66390641-F81A-4DBC-954C-1D44BFCFCBC3} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 		{1EE68B92-A666-4E34-B4FD-73844B42C5E5} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
+		{65BC030B-1465-4466-B66D-8C03F78E33FD} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
