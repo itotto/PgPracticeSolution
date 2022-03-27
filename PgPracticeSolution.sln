@@ -663,7 +663,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "constructor001", "construct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "modifyclassmenber001", "modifyclassmenber001\modifyclassmenber001.csproj", "{65BC030B-1465-4466-B66D-8C03F78E33FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classinheritance001", "classinheritance001\classinheritance001.csproj", "{8DF879AE-DD53-47D3-8A39-EFD882A8A80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classinheritance001", "classinheritance001\classinheritance001.csproj", "{8DF879AE-DD53-47D3-8A39-EFD882A8A80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defaultarguments001", "defaultarguments001\defaultarguments001.csproj", "{2CA3DE79-A7DC-4125-B140-54505D6EDE59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1855,6 +1857,10 @@ Global
 		{8DF879AE-DD53-47D3-8A39-EFD882A8A80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF879AE-DD53-47D3-8A39-EFD882A8A80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF879AE-DD53-47D3-8A39-EFD882A8A80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA3DE79-A7DC-4125-B140-54505D6EDE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA3DE79-A7DC-4125-B140-54505D6EDE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA3DE79-A7DC-4125-B140-54505D6EDE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA3DE79-A7DC-4125-B140-54505D6EDE59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2171,6 +2177,7 @@ Global
 		{1EE68B92-A666-4E34-B4FD-73844B42C5E5} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 		{65BC030B-1465-4466-B66D-8C03F78E33FD} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 		{8DF879AE-DD53-47D3-8A39-EFD882A8A80E} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
+		{2CA3DE79-A7DC-4125-B140-54505D6EDE59} = {A66942C5-8410-4CCC-8B14-3BE5157844A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
