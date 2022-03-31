@@ -673,6 +673,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "destinationofelevator001", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rectanglearea001", "rectanglearea001\rectanglearea001.csproj", "{8A17E6EF-6691-480C-AC5C-7EECE5DAF24E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sale001", "sale001\sale001.csproj", "{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1879,6 +1881,10 @@ Global
 		{8A17E6EF-6691-480C-AC5C-7EECE5DAF24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A17E6EF-6691-480C-AC5C-7EECE5DAF24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A17E6EF-6691-480C-AC5C-7EECE5DAF24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2199,6 +2205,7 @@ Global
 		{22CE2C7E-834F-4868-9FE4-3E7A6E1AF086} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 		{EB9175C1-98C2-476E-A4F3-425CC72ED10F} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 		{8A17E6EF-6691-480C-AC5C-7EECE5DAF24E} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
+		{82328FF0-BEB8-4B76-A3E5-D9F38F9236B8} = {201B432C-ABEB-4AF9-B1F7-88EB435C5DC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F47469F8-B73F-4063-B546-2AC7E9030294}
